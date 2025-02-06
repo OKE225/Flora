@@ -6,7 +6,6 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@firecms/neat": "^0.3.0",
     "@mui/icons-material": "^6.4.2",
     "@mui/material": "^6.4.2",
     "cra-template-typescript": "1.2.0",
@@ -15,7 +14,9 @@
     "react-scripts": "5.0.1",
     "react-tilt": "^1.0.2",
     "sass": "^1.83.4",
-    "three.js": "^0.77.1"
+    "three": "^0.173.0",
+    "three.js": "^0.77.1",
+    "vanta": "^0.5.24"
   },
   "scripts": {
     "start": "react-scripts start",

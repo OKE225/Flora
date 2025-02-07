@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Flora/static/css/main.dffaeeb1.css",
-    "main.js": "/Flora/static/js/main.a37f92e7.js",
+    "main.css": "/Flora/static/css/main.20568ed2.css",
+    "main.js": "/Flora/static/js/main.0152e5c1.js",
     "index.html": "/Flora/index.html",
-    "main.dffaeeb1.css.map": "/Flora/static/css/main.dffaeeb1.css.map",
-    "main.a37f92e7.js.map": "/Flora/static/js/main.a37f92e7.js.map"
+    "main.20568ed2.css.map": "/Flora/static/css/main.20568ed2.css.map",
+    "main.0152e5c1.js.map": "/Flora/static/js/main.0152e5c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.dffaeeb1.css",
-    "static/js/main.a37f92e7.js"
+    "static/css/main.20568ed2.css",
+    "static/js/main.0152e5c1.js"
   ]
 }

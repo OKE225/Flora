@@ -30,7 +30,7 @@ export const FloraImage: React.FC<Props> = ({
     <img
       src={source}
       className="flora-image"
-      alt="Plant transparent photo"
+      alt="Plant transparent"
       style={{
         width: width,
         height: height,

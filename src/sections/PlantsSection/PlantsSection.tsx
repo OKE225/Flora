@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./PlantsSection.scss";
-import { Box } from "@mui/material";
+import { Box, Card, CardMedia, CardContent, Typography } from "@mui/material";
+import { Tilt } from "react-tilt";
 import { AnimatedBackground } from "../../components/AnimatedBackground/AnimatedBackground.tsx";
 import { FloraImage } from "../../components/FloraImage/FloraImage.tsx";
 
@@ -11,6 +11,20 @@ import plant3 from "../../assets/images/plants/plant_transparent_3.png";
 import plant4 from "../../assets/images/plants/plant_transparent_4.png";
 import plant5 from "../../assets/images/plants/plant_transparent_5.png";
 import plant6 from "../../assets/images/plants/plant_transparent_6.png";
+
+import plantImage from "../../assets/images/plants/plant2.jpeg";
+
+const defaultOptions = {
+  reverse: false,
+  max: 25,
+  perspective: 1000,
+  scale: 1.05,
+  speed: 1000,
+  transition: true,
+  axis: null,
+  reset: true,
+  easing: "cubic-bezier(.03,.98,.52,.99)",
+};
 
 export class PlantsSection extends Component {
   render() {
@@ -26,15 +40,71 @@ export class PlantsSection extends Component {
           className="plants-section"
           sx={{
             height: "100%",
+            overflow: "hidden",
+            position: "relative",
           }}>
           <FloraImage
             source={plantsTop}
             width="100%"
-            margin="-20% 0 0 0"
+            margin="-25% 0 0 0"
             zIndex={100}
           />
-          <div className="left-side">
-            <FloraImage 
+          <Box
+            className="content"
+            sx={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+              zIndex: "99",
+              display: "flex",
+              alignContent: "center",
+              alignItems: "center",
+              width: "60%",
+            }}>
+            <Box
+              className="typography-section"
+              mr={20}
+              sx={{
+                color: "white",
+              }}>
+              <Typography variant="h2" gutterBottom>
+                <b>FLORA</b> Plants and Flowers
+              </Typography>
+              <Typography variant="body1" sx={{ color: "#ececec" }}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                diam eros, dignissim et augue fermentum, fringilla feugiat
+                libero. Pellentesque tincidunt facilisis tortor, vitae maximus
+                nunc. Cras luctus augue in justo posuere faucibus. Duis odio
+                magna, luctus id bibendum nec, interdum in mauris. Sed eget quam
+                sed diam euismod mattis. In hac habitasse platea dictumst. Cras
+                eu odio mi. Sed tristique venenatis enim vel elementum.
+              </Typography>
+            </Box>
+            <Box className="card">
+              <Tilt options={defaultOptions}>
+                <Card
+                  sx={{
+                    width: "350px",
+                    background: "#3f7d20",
+                    color: "white",
+                  }}>
+                  <CardMedia image={plantImage} sx={{ height: 200 }} />
+                  <CardContent>
+                    <Typography variant="h5" gutterBottom>
+                      Solar project
+                    </Typography>
+                    <Typography variant="body1" sx={{ color: "#ececec" }}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Etiam eleifend.
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </Tilt>
+            </Box>
+          </Box>
+          <Box className="left-side">
+            <FloraImage
               source={plant1}
               width="600px"
               posBottom="-50px"
@@ -57,17 +127,17 @@ export class PlantsSection extends Component {
               rotateDeg="10deg"
               zIndex={-2}
             />
-          </div>
-          <div className="right-side">
-            <FloraImage 
-              source={plant6} 
+          </Box>
+          <Box className="right-side">
+            <FloraImage
+              source={plant6}
               width="420px"
               posBottom="-40px"
               posRight="260px"
               rotateDeg="-8.45deg"
               zIndex={-2}
             />
-            <FloraImage 
+            <FloraImage
               source={plant4}
               width="500px"
               posBottom="-100px"
@@ -83,7 +153,7 @@ export class PlantsSection extends Component {
               rotateDeg="-27deg"
               zIndex={-2}
             />
-          </div>
+          </Box>
         </Box>
       </AnimatedBackground>
     );

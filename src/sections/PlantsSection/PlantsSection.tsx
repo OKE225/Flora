@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { Box, Card, CardMedia, CardContent, Typography } from "@mui/material";
-import { Tilt } from "react-tilt";
+import { Box, Typography } from "@mui/material";
 import { AnimatedBackground } from "../../components/AnimatedBackground/AnimatedBackground.tsx";
 import { FloraImage } from "../../components/FloraImage/FloraImage.tsx";
+import { TiltCard } from "../../components/TiltCard/TiltCard.tsx";
 
 import plantsTop from "../../assets/images/plants/plants_transparent_top.png";
 import plant1 from "../../assets/images/plants/plant_transparent_1.png";
@@ -13,18 +13,6 @@ import plant5 from "../../assets/images/plants/plant_transparent_5.png";
 import plant6 from "../../assets/images/plants/plant_transparent_6.png";
 
 import plantImage from "../../assets/images/plants/plant2.jpeg";
-
-const defaultOptions = {
-  reverse: false,
-  max: 25,
-  perspective: 1000,
-  scale: 1.05,
-  speed: 1000,
-  transition: true,
-  axis: null,
-  reset: true,
-  easing: "cubic-bezier(.03,.98,.52,.99)",
-};
 
 export class PlantsSection extends Component {
   render() {
@@ -82,25 +70,13 @@ export class PlantsSection extends Component {
               </Typography>
             </Box>
             <Box className="card">
-              <Tilt options={defaultOptions}>
-                <Card
-                  sx={{
-                    width: "350px",
-                    background: "#3f7d20",
-                    color: "white",
-                  }}>
-                  <CardMedia image={plantImage} sx={{ height: 200 }} />
-                  <CardContent>
-                    <Typography variant="h5" gutterBottom>
-                      Solar project
-                    </Typography>
-                    <Typography variant="body1" sx={{ color: "#ececec" }}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Etiam eleifend.
-                    </Typography>
-                  </CardContent>
-                </Card>
-              </Tilt>
+              <TiltCard
+                cardColor="#3f7d20"
+                image={plantImage}
+                title="Solar Project"
+                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+            eleifend."
+              />
             </Box>
           </Box>
           <Box className="left-side">

@@ -1,23 +1,23 @@
 import React, { useEffect, useRef } from "react";
-import * as THREE from 'three';
+import * as THREE from "three";
 import FOG from "vanta/dist/vanta.fog.min";
-import "./AnimatedBackground.scss";
+import { Box } from "@mui/material";
 
-type Props ={
+type Props = {
   colors: {
-    baseColor: string
-    midtoneColor: string,
-    lowlightColor: string,
-    highlightColor: string,
-  },
+    baseColor: string;
+    midtoneColor: string;
+    lowlightColor: string;
+    highlightColor: string;
+  };
   children: React.ReactNode;
-}
+};
 
-export const AnimatedBackground: React.FC<Props> = ({colors, children}) => {
+export const AnimatedBackground: React.FC<Props> = ({ colors, children }) => {
   const ref = useRef(null);
 
   useEffect(() => {
-    if(!ref.current) return;
+    if (!ref.current) return;
 
     const vantaEffect = FOG({
       el: ref.current,
@@ -35,11 +35,19 @@ export const AnimatedBackground: React.FC<Props> = ({colors, children}) => {
     });
 
     return () => {
-      if(vantaEffect) vantaEffect.destroy();
+      if (vantaEffect) vantaEffect.destroy();
     };
   }, [colors]);
 
-  return <div className="vanta-animation-background" ref={ref}>
-    {children}
-  </div>;
+  return (
+    <Box
+      className="vanta-animation-background"
+      ref={ref}
+      sx={{
+        width: "100vw",
+        height: "100vh",
+      }}>
+      {children}
+    </Box>
+  );
 };

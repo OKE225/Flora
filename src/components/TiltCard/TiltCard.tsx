@@ -15,7 +15,7 @@ const tiltDefaultOptions = {
 };
 
 type Props = {
-  colorCard: string;
+  cardColor: string;
   image: string;
   title: string;
   desc: string;

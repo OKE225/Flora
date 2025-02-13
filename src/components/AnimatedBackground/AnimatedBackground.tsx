@@ -44,7 +44,7 @@ export const AnimatedBackground: React.FC<Props> = ({ colors, children }) => {
       className="vanta-animation-background"
       ref={ref}
       sx={{
-        width: "100vw",
+        width: "100%",
         height: "100vh",
       }}>
       {children}

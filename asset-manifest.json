@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Flora/static/css/main.8346f74c.css",
-    "main.js": "/Flora/static/js/main.b3cfcdaf.js",
+    "main.js": "/Flora/static/js/main.eecae998.js",
     "static/media/plants_transparent_top.png": "/Flora/static/media/plants_transparent_top.4e891e5b8079c774fb32.png",
     "static/media/plant_transparent_5.png": "/Flora/static/media/plant_transparent_5.2cb584632dfae9b2b895.png",
     "static/media/plant_transparent_3.png": "/Flora/static/media/plant_transparent_3.8697ce6681a7cfafacaf.png",
@@ -12,10 +12,10 @@
     "static/media/plant_transparent_4.png": "/Flora/static/media/plant_transparent_4.fb66e1595b6a6e7b6a09.png",
     "index.html": "/Flora/index.html",
     "main.8346f74c.css.map": "/Flora/static/css/main.8346f74c.css.map",
-    "main.b3cfcdaf.js.map": "/Flora/static/js/main.b3cfcdaf.js.map"
+    "main.eecae998.js.map": "/Flora/static/js/main.eecae998.js.map"
   },
   "entrypoints": [
     "static/css/main.8346f74c.css",
-    "static/js/main.b3cfcdaf.js"
+    "static/js/main.eecae998.js"
   ]
 }

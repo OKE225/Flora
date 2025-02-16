@@ -14,3 +14,31 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+  visibility: hidden;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  width: 0px;
+  display: none;
+  visibility: hidden;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 0px;
+  display: none;
+  visibility: hidden;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  width: 0px;
+  display: none;
+  visibility: hidden;
+  background: transparent;
+}

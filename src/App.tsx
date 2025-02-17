@@ -3,6 +3,7 @@ import { PlantsSection } from "./sections/PlantsSection/PlantsSection.tsx";
 import { FlowersSection } from "./sections/FlowersSection/FlowersSection.tsx";
 import { Navigation } from "./layout/Navigation/Navigation.tsx";
 import { Footer } from "./layout/Footer/Footer.tsx";
+import { TeamSection } from "./sections/TeamSection/TeamSection.tsx";
 
 export const App = () => {
   return (
@@ -27,13 +28,13 @@ export const App = () => {
         lowlightColor="#d3cc00"
         highlightColor="#bbb205"
       />
-      <FlowersSection
+      <TeamSection
         baseColor="#BCBEC0"
         midtoneColor="#E6E7E8"
         lowlightColor="#D1D3D4"
         highlightColor="#939598"
       />
-      <Footer/>
+      <Footer />
     </>
   );
 };

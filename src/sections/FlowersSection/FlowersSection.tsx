@@ -2,13 +2,20 @@ import React from "react";
 import { AnimatedBackground } from "../../components/AnimatedBackground/AnimatedBackground.tsx";
 
 type Props = {
-  baseColor: string,
-  midtoneColor: string,
-  lowlightColor: string,
-  highlightColor: string,
-}
+  baseColor: string;
+  midtoneColor: string;
+  lowlightColor: string;
+  highlightColor: string;
+  children: React.ReactNode;
+};
 
-export const FlowersSection: React.FC<Props> = ({baseColor, midtoneColor, lowlightColor,highlightColor}) => {
+export const FlowersSection: React.FC<Props> = ({
+  baseColor,
+  midtoneColor,
+  lowlightColor,
+  highlightColor,
+  children,
+}) => {
   return (
     <AnimatedBackground
       colors={{
@@ -17,6 +24,7 @@ export const FlowersSection: React.FC<Props> = ({baseColor, midtoneColor, lowlig
         lowlightColor: lowlightColor,
         highlightColor: highlightColor,
       }}>
+      {children}
     </AnimatedBackground>
   );
 };

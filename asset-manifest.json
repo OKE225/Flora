@@ -1,21 +1,29 @@
 {
   "files": {
     "main.css": "/Flora/static/css/main.a4d5e876.css",
-    "main.js": "/Flora/static/js/main.6f29ef86.js",
+    "main.js": "/Flora/static/js/main.28f17f8a.js",
     "static/media/plants_transparent_top.png": "/Flora/static/media/plants_transparent_top.4e891e5b8079c774fb32.png",
+    "static/media/flower_transparent_4.png": "/Flora/static/media/flower_transparent_4.6dda9982b9bdb8fc0fde.png",
+    "static/media/flower_transparent_5.png": "/Flora/static/media/flower_transparent_5.b36738cb12435bb5803d.png",
+    "static/media/flower_transparent_1.png": "/Flora/static/media/flower_transparent_1.52380c0408acf104066f.png",
+    "static/media/flower_transparent_2.png": "/Flora/static/media/flower_transparent_2.5ce3560d1b6c9da9f6c7.png",
     "static/media/plant_transparent_5.png": "/Flora/static/media/plant_transparent_5.2cb584632dfae9b2b895.png",
     "static/media/plant_transparent_3.png": "/Flora/static/media/plant_transparent_3.8697ce6681a7cfafacaf.png",
     "static/media/plant2.jpeg": "/Flora/static/media/plant2.3cbd51a4d7f72d51f4f9.jpeg",
     "static/media/plant_transparent_6.png": "/Flora/static/media/plant_transparent_6.89708c905ccf1d0f061c.png",
     "static/media/plant_transparent_2.png": "/Flora/static/media/plant_transparent_2.cdbe80d40508eafd96a0.png",
+    "static/media/flower_transparent_3.png": "/Flora/static/media/flower_transparent_3.e840bdf88625735f0cee.png",
     "static/media/plant_transparent_1.png": "/Flora/static/media/plant_transparent_1.6662cba5ed79d4c8cad7.png",
     "static/media/plant_transparent_4.png": "/Flora/static/media/plant_transparent_4.fb66e1595b6a6e7b6a09.png",
+    "static/media/flower1.jpeg": "/Flora/static/media/flower1.d68588520a11fc8f4b92.jpeg",
+    "static/media/flower4.jpeg": "/Flora/static/media/flower4.d2501e40c9b776021c75.jpeg",
+    "static/media/flower2.jpeg": "/Flora/static/media/flower2.785eabf81be1649409bf.jpeg",
     "index.html": "/Flora/index.html",
     "main.a4d5e876.css.map": "/Flora/static/css/main.a4d5e876.css.map",
-    "main.6f29ef86.js.map": "/Flora/static/js/main.6f29ef86.js.map"
+    "main.28f17f8a.js.map": "/Flora/static/js/main.28f17f8a.js.map"
   },
   "entrypoints": [
     "static/css/main.a4d5e876.css",
-    "static/js/main.6f29ef86.js"
+    "static/js/main.28f17f8a.js"
   ]
 }

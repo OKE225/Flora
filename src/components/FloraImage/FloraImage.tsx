@@ -1,5 +1,4 @@
 import React from "react";
-import "./FloraImage.scss";
 
 type Props = {
   source: string;
@@ -31,7 +30,10 @@ export const FloraImage: React.FC<Props> = ({
       src={source}
       className="flora-image"
       alt="Plant transparent"
+      draggable={false}
       style={{
+        position: "absolute",
+        userSelect: "none",
         width: width,
         height: height,
         right: posRight,

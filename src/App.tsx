@@ -38,13 +38,14 @@ export const App = () => {
             justifyContent: "center",
             zIndex: "10",
           }}>
-          <Box sx={{ width: "80%", margin: "0 auto" }}>
+          <Box sx={{ width: "60%", margin: "0 auto" }}>
             <Typography
               variant="h2"
               sx={{
                 color: "white",
                 textAlign: "center",
-              }}>
+              }}
+              gutterBottom>
               ROSE
             </Typography>
             <Typography variant="body1" sx={{ color: "#ececec" }}>

@@ -5,7 +5,7 @@ import { TbBrandGithubFilled } from "react-icons/tb";
 
 export const Navigation = () => {
   return (
-    <Box 
+    <Box
       sx={{
         position: "fixed",
         width: "100%",
@@ -17,12 +17,12 @@ export const Navigation = () => {
         color: "white",
         padding: "1%",
       }}>
-      <Typography variant="h4" sx={{ fontWeight: "bold" }}>
+      <Typography variant="h5" sx={{ fontWeight: "bold" }}>
         <Link href="#" color="inherit" underline="none">
           FLORA
         </Link>
       </Typography>
-      <Box sx={{ fontSize: "28px"}}>
+      <Box sx={{ fontSize: "24px" }}>
         <Link
           href="https://discord.com/users/676854872678858771"
           color="inherit"

@@ -9,7 +9,7 @@ import { FaCodepen } from "react-icons/fa";
 export const Footer = () => {
   return <footer>
     <Box sx={{width: "70%", display: "flex", justifyContent: "space-between", alignContent: "center", alignItems: "center"}} color="white">
-        <Typography variant="h6" ><span className="footer-subtext">Copyright © 2024</span> oke_225 </Typography>
+        <Typography variant="h6" ><span className="footer-subtext">Copyright © 2025</span> oke_225 </Typography>
         <Box className="icons" sx={{display: "flex", alignItems: "center"}}>
             <Link href="https://discord.com/users/676854872678858771" color="inherit" underline="none" sx={{display: "flex", alignItems: "center", mr: 3, fontSize: 26}}>
                 <FaDiscord/>

@@ -71,8 +71,8 @@ export class PlantsSection extends Component {
             </Box>
             <Box className="card" display="block">
               <TiltCard
-                cardColor="#3f7d20"
-                borderColor="#46971e"
+                cardColor="#132a13"
+                borderColor="#31572c"
                 image={plantImage}
                 title="Solar Project"
                 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam

@@ -62,24 +62,24 @@ export const App = () => {
               marginTop: "80px",
             }}>
             <TiltCard
-              cardColor="#d32f2f"
-              borderColor="#ff3535"
+              cardColor="#6a040f"
+              borderColor="#9d0208"
               image={flower1}
               title="lorem ipsum"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             eleifend."
             />
             <TiltCard
-              cardColor="#d32f2f"
-              borderColor="#ff3535"
+              cardColor="#6a040f"
+              borderColor="#9d0208"
               image={flower2}
               title="lorem ipsum"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
           eleifend."
             />
             <TiltCard
-              cardColor="#d32f2f"
-              borderColor="#ff3535"
+              cardColor="#6a040f"
+              borderColor="#9d0208"
               image={flower4}
               title="lorem ipsum"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam

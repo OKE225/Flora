@@ -30,7 +30,7 @@ export const AnimatedBackground: React.FC<Props> = ({ colors, children }) => {
       lowlightColor: colors.lowlightColor,
       highlightColor: colors.highlightColor,
       blurFactor: 0.75,
-      speed: 1,
+      speed: 2,
       zoom: 1.5,
     });
 

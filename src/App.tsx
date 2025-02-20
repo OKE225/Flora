@@ -8,14 +8,14 @@ import { Box, Typography } from "@mui/material";
 import { TiltCard } from "./components/TiltCard/TiltCard.tsx";
 import { FloraImage } from "./components/FloraImage/FloraImage.tsx";
 
-import flower1 from "./assets/images/red_flowers/flower1.jpeg";
-import flower2 from "./assets/images/red_flowers/flower2.jpeg";
-import flower4 from "./assets/images/red_flowers/flower4.jpeg";
-import flowerTransparent1 from "./assets/images/red_flowers/flower_transparent_1.png";
-import flowerTransparent2 from "./assets/images/red_flowers/flower_transparent_2.png";
-import flowerTransparent3 from "./assets/images/red_flowers/flower_transparent_3.png";
-import flowerTransparent4 from "./assets/images/red_flowers/flower_transparent_4.png";
-import flowerTransparent5 from "./assets/images/red_flowers/flower_transparent_5.png";
+import flowerRedTransparent1 from "./assets/images/red_flowers/flower_transparent_1.png";
+import flowerRedTransparent2 from "./assets/images/red_flowers/flower_transparent_2.png";
+import flowerRedTransparent3 from "./assets/images/red_flowers/flower_transparent_3.png";
+import flowerRedTransparent4 from "./assets/images/red_flowers/flower_transparent_4.png";
+import flowerRedTransparent5 from "./assets/images/red_flowers/flower_transparent_5.png";
+import flowerRed1 from "./assets/images/red_flowers/flower1.jpeg";
+import flowerRed2 from "./assets/images/red_flowers/flower2.jpeg";
+import flowerRed3 from "./assets/images/red_flowers/flower3.jpg";
 
 export const App = () => {
   return (
@@ -63,25 +63,25 @@ export const App = () => {
               marginTop: "80px",
             }}>
             <TiltCard
-              cardColor="#6a040f"
-              borderColor="#9d0208"
-              image={flower1}
+              cardColor="#a4161a"
+              borderColor="#660708"
+              image={flowerRed1}
               title="lorem ipsum"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             eleifend."
             />
             <TiltCard
-              cardColor="#6a040f"
-              borderColor="#9d0208"
-              image={flower2}
+              cardColor="#a4161a"
+              borderColor="#660708"
+              image={flowerRed2}
               title="lorem ipsum"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
           eleifend."
             />
             <TiltCard
-              cardColor="#6a040f"
-              borderColor="#9d0208"
-              image={flower4}
+              cardColor="#a4161a"
+              borderColor="#660708"
+              image={flowerRed3}
               title="lorem ipsum"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
           eleifend."
@@ -90,7 +90,7 @@ export const App = () => {
         </Box>
         <Box className="left-side">
           <FloraImage
-            source={flowerTransparent1}
+            source={flowerRedTransparent1}
             width="325px"
             posBottom="550px"
             posLeft="-110px"
@@ -98,7 +98,7 @@ export const App = () => {
             zIndex={-1}
           />
           <FloraImage
-            source={flowerTransparent2}
+            source={flowerRedTransparent2}
             width="300px"
             posBottom="-220px"
             posLeft="10px"
@@ -108,7 +108,7 @@ export const App = () => {
         </Box>
         <Box className="right-side">
           <FloraImage
-            source={flowerTransparent5}
+            source={flowerRedTransparent5}
             width="250px"
             posBottom="-100px"
             posRight="650px"
@@ -116,7 +116,7 @@ export const App = () => {
             zIndex={-1}
           />
           <FloraImage
-            source={flowerTransparent4}
+            source={flowerRedTransparent4}
             width="500px"
             posBottom="-50px"
             posRight="-180px"
@@ -124,7 +124,7 @@ export const App = () => {
             zIndex={-1}
           />
           <FloraImage
-            source={flowerTransparent3}
+            source={flowerRedTransparent3}
             width="220px"
             posBottom="700px"
             posRight="-80px"

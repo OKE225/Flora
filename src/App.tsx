@@ -27,6 +27,17 @@ import flowerBlue1 from "./assets/images/blue_flowers/flower1.jpeg";
 import flowerBlue2 from "./assets/images/blue_flowers/flower2.jpeg";
 import flowerBlue3 from "./assets/images/blue_flowers/flower3.jpeg";
 
+import flowerYellowTransparent1 from "./assets/images/yellow_flowers/flower_transparent_1.png";
+import flowerYellowTransparent2 from "./assets/images/yellow_flowers/flower_transparent_2.png";
+import flowerYellowTransparent3 from "./assets/images/yellow_flowers/flower_transparent_3.png";
+import flowerYellowTransparent4 from "./assets/images/yellow_flowers/flower_transparent_4.png";
+import flowerYellowTransparent5 from "./assets/images/yellow_flowers/flower_transparent_5.png";
+import flowerYellowTransparent6 from "./assets/images/yellow_flowers/flower_transparent_6.png";
+import flowerYellowTransparent7 from "./assets/images/yellow_flowers/flower_transparent_7.png";
+import flowerYellow1 from "./assets/images/yellow_flowers/flower1.png";
+import flowerYellow2 from "./assets/images/yellow_flowers/flower2.png";
+import flowerYellow3 from "./assets/images/yellow_flowers/flower3.jpg";
+
 export const App = () => {
   return (
     <>
@@ -263,10 +274,132 @@ export const App = () => {
         </Box>
       </FlowersSection>
       <FlowersSection
-        baseColor="#b89900"
-        midtoneColor="#c7b40f"
-        lowlightColor="#d3cc00"
-        highlightColor="#bbb205"></FlowersSection>
+        baseColor="#ded300"
+        midtoneColor="#d2bd00"
+        lowlightColor="#c5a700"
+        highlightColor="#cca400">
+        <Box
+          sx={{
+            position: "relative",
+            width: "80%",
+            height: "100vh",
+            margin: "0 auto",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            zIndex: "10",
+          }}>
+          <Box sx={{ width: "60%", margin: "0 auto" }}>
+            <Typography
+              variant="h2"
+              sx={{
+                color: "white",
+                textAlign: "center",
+              }}
+              gutterBottom>
+              SUNFLOWER
+            </Typography>
+            <Typography variant="body1" sx={{ color: "#ececec" }}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos nesciunt harum enim obcaecati a similique culpa esse
+              tenetur, magni doloremque praesentium, ullam ipsa repudiandae fuga
+              molestiae eum nulla ab consectetur.
+            </Typography>
+          </Box>
+          <Box
+            className="cards"
+            sx={{
+              display: "flex",
+              justifyContent: "space-around",
+              marginTop: "80px",
+            }}>
+            <TiltCard
+              cardColor="#cca000"
+              borderColor="#76520e"
+              image={flowerYellow1}
+              title="lorem ipsum"
+              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+      eleifend."
+            />
+            <TiltCard
+              cardColor="#cca000"
+              borderColor="#76520e"
+              image={flowerYellow2}
+              title="lorem ipsum"
+              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+    eleifend."
+            />
+            <TiltCard
+              cardColor="#cca000"
+              borderColor="#76520e"
+              image={flowerYellow3}
+              title="lorem ipsum"
+              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+    eleifend."
+            />
+          </Box>
+        </Box>
+        <Box className="left-side">
+          <FloraImage
+            source={flowerYellowTransparent7}
+            width="225px"
+            posBottom="750px"
+            posLeft="-110px"
+            rotateDeg="0deg"
+            zIndex={-1}
+          />
+          <FloraImage
+            source={flowerYellowTransparent3}
+            width="400px"
+            posBottom="50px"
+            posLeft="-160px"
+            rotateDeg="45deg"
+            zIndex={-1}
+          />
+          <FloraImage
+            source={flowerYellowTransparent6}
+            width="550px"
+            posBottom="-275px"
+            posLeft="45px"
+            rotateDeg="20deg"
+            zIndex={-1}
+          />
+          <FloraImage
+            source={flowerYellowTransparent4}
+            width="220px"
+            posBottom="-110px"
+            posLeft="750px"
+            rotateDeg="0deg"
+            zIndex={-1}
+          />
+        </Box>
+        <Box className="right-side">
+          <FloraImage
+            source={flowerYellowTransparent5}
+            width="500px"
+            posBottom="-70px"
+            posRight="0px"
+            rotateDeg="0deg"
+            zIndex={-1}
+          />
+          <FloraImage
+            source={flowerYellowTransparent2}
+            width="400px"
+            posBottom="375px"
+            posRight="-165px"
+            rotateDeg="-40deg"
+            zIndex={-1}
+          />
+          <FloraImage
+            source={flowerYellowTransparent1}
+            width="125px"
+            posBottom="860px"
+            posRight="-70px"
+            rotateDeg="0deg"
+            zIndex={-1}
+          />
+        </Box>
+      </FlowersSection>
       <TeamSection
         baseColor="#BCBEC0"
         midtoneColor="#E6E7E8"

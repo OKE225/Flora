@@ -6,6 +6,7 @@ type Props = {
   midtoneColor: string;
   lowlightColor: string;
   highlightColor: string;
+  children: React.ReactNode;
 };
 
 export const TeamSection: React.FC<Props> = ({
@@ -13,6 +14,7 @@ export const TeamSection: React.FC<Props> = ({
   midtoneColor,
   lowlightColor,
   highlightColor,
+  children,
 }) => {
   return (
     <AnimatedBackground
@@ -21,6 +23,8 @@ export const TeamSection: React.FC<Props> = ({
         midtoneColor: midtoneColor,
         lowlightColor: lowlightColor,
         highlightColor: highlightColor,
-      }}></AnimatedBackground>
+      }}>
+      {children}
+    </AnimatedBackground>
   );
 };

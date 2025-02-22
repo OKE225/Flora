@@ -7,6 +7,7 @@ import { TeamSection } from "./sections/TeamSection/TeamSection.tsx";
 import { Box, Typography } from "@mui/material";
 import { TiltCard } from "./components/TiltCard/TiltCard.tsx";
 import { FloraImage } from "./components/FloraImage/FloraImage.tsx";
+import { TiltCardEmployee } from "./components/TiltCardEmployee/TiltCardEmployee.tsx";
 
 import flowerRedTransparent1 from "./assets/images/red_flowers/flower_transparent_1.png";
 import flowerRedTransparent2 from "./assets/images/red_flowers/flower_transparent_2.png";
@@ -37,6 +38,10 @@ import flowerYellowTransparent7 from "./assets/images/yellow_flowers/flower_tran
 import flowerYellow1 from "./assets/images/yellow_flowers/flower1.png";
 import flowerYellow2 from "./assets/images/yellow_flowers/flower2.png";
 import flowerYellow3 from "./assets/images/yellow_flowers/flower3.jpg";
+
+import employee1 from "./assets/images/employees/employee1.jpg";
+import employee2 from "./assets/images/employees/employee2.jpg";
+import employee3 from "./assets/images/employees/employee3.jpg";
 
 export const App = () => {
   return (
@@ -401,11 +406,75 @@ export const App = () => {
         </Box>
       </FlowersSection>
       <TeamSection
-        baseColor="#BCBEC0"
-        midtoneColor="#E6E7E8"
-        lowlightColor="#D1D3D4"
-        highlightColor="#939598"
-      />
+        baseColor="#ffbe0b"
+        midtoneColor="#fb5607"
+        lowlightColor="#ff006e"
+        highlightColor="#9454ef">
+        <Box
+          sx={{
+            position: "relative",
+            width: "80%",
+            height: "100vh",
+            margin: "0 auto",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            zIndex: "10",
+          }}>
+          <Box sx={{ width: "60%", margin: "0 auto" }}>
+            <Typography
+              variant="h2"
+              sx={{
+                color: "white",
+                textAlign: "center",
+              }}
+              gutterBottom>
+              OUR TEAM
+            </Typography>
+            <Typography variant="body1" sx={{ color: "#ececec" }}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos nesciunt harum enim obcaecati a similique culpa esse
+              tenetur, magni doloremque praesentium, ullam ipsa repudiandae fuga
+              molestiae eum nulla ab consectetur.
+            </Typography>
+          </Box>
+          <Box
+            className="cards"
+            sx={{
+              display: "flex",
+              justifyContent: "space-around",
+              marginTop: "80px",
+            }}>
+            <TiltCardEmployee
+              cardColor="#343a40"
+              borderColor="#000000dd"
+              profession="Database Administrator"
+              name="Ethan"
+              lastname="Thompson"
+              photo={employee1}
+              bio="Ethan Thompson is a seasoned team leader with over 8 years of experience in managing databases. He specializes in performance optimization and data security, having previously worked as a senior DBA with expertise in SQL Server and Oracle."
+            />
+            <TiltCardEmployee
+              cardColor="#343a40"
+              borderColor="#000000dd"
+              profession="Front-end Team Leader"
+              name="Lucas"
+              lastname="Brooks"
+              photo={employee2}
+              bio="Lucas Brooks is a seasoned front-end team leader with over 9 years of experience in web applications using React, Angular, and Vue.js. He specializes in creating responsive UIs and optimizing JavaScript for better performance."
+            />
+            <TiltCardEmployee
+              cardColor="#343a40"
+              borderColor="#000000dd"
+              profession="UI/UX Design Team Leader"
+              name="Sophia"
+              lastname="Patel"
+              photo={employee3}
+              bio="Sophia Patel is a skilled UI/UX team leader with 6 years of experience in designing mobile apps and websites. She excels at using Sketch, Figma, Adobe XD and Photoshop. Formerly a senior designer, she honed her user experience skills."
+            />
+          </Box>
+        </Box>
+      </TeamSection>
       <Footer />
     </>
   );

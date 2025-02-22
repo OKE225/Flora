@@ -29,8 +29,8 @@ export const AnimatedBackground: React.FC<Props> = ({ colors, children }) => {
       midtoneColor: colors.midtoneColor,
       lowlightColor: colors.lowlightColor,
       highlightColor: colors.highlightColor,
-      blurFactor: 0.75,
-      speed: 2,
+      blurFactor: 0.65,
+      speed: 1.5,
       zoom: 1.5,
     });
 

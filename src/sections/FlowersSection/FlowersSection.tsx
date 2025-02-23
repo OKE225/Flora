@@ -6,6 +6,8 @@ type Props = {
   midtoneColor: string;
   lowlightColor: string;
   highlightColor: string;
+  clipPath: string;
+  marginTop: string;
   children: React.ReactNode;
 };
 
@@ -14,6 +16,8 @@ export const FlowersSection: React.FC<Props> = ({
   midtoneColor,
   lowlightColor,
   highlightColor,
+  clipPath,
+  marginTop,
   children,
 }) => {
   return (
@@ -23,7 +27,9 @@ export const FlowersSection: React.FC<Props> = ({
         midtoneColor: midtoneColor,
         lowlightColor: lowlightColor,
         highlightColor: highlightColor,
-      }}>
+      }}
+      clipPath={clipPath}
+      marginTop={marginTop}>
       {children}
     </AnimatedBackground>
   );

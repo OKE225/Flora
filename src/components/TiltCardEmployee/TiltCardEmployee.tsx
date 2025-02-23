@@ -29,7 +29,7 @@ export const TiltCardEmployee: React.FC<Props> = (props) => {
     <Box
       className="card"
       sx={{
-        width: "350px",
+        width: "400px",
       }}>
       <Tilt options={tiltDefaultOptions}>
         <Card
@@ -37,11 +37,13 @@ export const TiltCardEmployee: React.FC<Props> = (props) => {
             background: `${props.cardColor}`,
             color: "#e9ecef",
             boxShadow: `0px 0px 20px -5px ${props.borderColor}`,
+            minHeight: "500px",
           }}>
           <CardContent
             sx={{
               padding: "24px",
               textAlign: "center",
+              height: "100%",
             }}>
             <Typography variant="h6" sx={{ color: "#adb5bd" }}>
               {props.profession}

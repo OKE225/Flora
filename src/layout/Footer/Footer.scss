@@ -1,10 +1,11 @@
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #212529;
-    height: 80px;
-    span.footer-subtext {
-        color: #adb5bd;
-    }
+  display: flex;
+  margin-top: -1px;
+  justify-content: center;
+  align-items: center;
+  background: #212529;
+  height: 80px;
+  span.footer-subtext {
+    color: #adb5bd;
+  }
 }

@@ -23,7 +23,9 @@ export const TeamSection: React.FC<Props> = ({
         midtoneColor: midtoneColor,
         lowlightColor: lowlightColor,
         highlightColor: highlightColor,
-      }}>
+      }}
+      clipPath="polygon(0 0, 100% 5%, 100% 100%, 0 100%)"
+      marginTop="-3%">
       {children}
     </AnimatedBackground>
   );

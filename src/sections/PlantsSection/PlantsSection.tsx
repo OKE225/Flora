@@ -23,11 +23,13 @@ export class PlantsSection extends Component {
           midtoneColor: "#169658",
           lowlightColor: "#357d01",
           highlightColor: "#64b003",
-        }}>
+        }}
+        clipPath="polygon(0 0, 100% 0%, 100% 95%, 0% 100%)"
+        marginTop="0">
         <Box
           className="plants-section"
           sx={{
-            height: "100%",
+            height: "inherit",
             overflow: "hidden",
             position: "relative",
           }}>
@@ -38,46 +40,52 @@ export class PlantsSection extends Component {
             zIndex={100}
           />
           <Box
-            className="content"
-            sx={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-              zIndex: "99",
-              display: "flex",
-              alignContent: "center",
-              alignItems: "center",
-              width: "60%",
-            }}>
+            className="content-container"
+            sx={{ height: "100vh", position: "absolute" }}>
             <Box
-              className="typography-section"
-              mr={20}
+              className="content"
               sx={{
-                color: "white",
+                position: "relative",
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+                zIndex: "99",
+                display: "flex",
+                alignContent: "center",
+                alignItems: "center",
+                width: "60%",
+                height: "100vh",
               }}>
-              <Typography variant="h2" gutterBottom>
-                <b>FLORA</b> Plants and Flowers
-              </Typography>
-              <Typography variant="body1" sx={{ color: "#ececec" }}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                diam eros, dignissim et augue fermentum, fringilla feugiat
-                libero. Pellentesque tincidunt facilisis tortor, vitae maximus
-                nunc. Cras luctus augue in justo posuere faucibus. Duis odio
-                magna, luctus id bibendum nec, interdum in mauris. Sed eget quam
-                sed diam euismod mattis. In hac habitasse platea dictumst. Cras
-                eu odio mi. Sed tristique venenatis enim vel elementum.
-              </Typography>
-            </Box>
-            <Box className="card" display="block">
-              <TiltCard
-                cardColor="#4f772d"
-                borderColor="#31572c"
-                image={plantImage}
-                title="Solar Project"
-                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              <Box
+                className="typography-section"
+                mr={20}
+                sx={{
+                  color: "white",
+                }}>
+                <Typography variant="h1" gutterBottom>
+                  <b>FLORA</b> Plants and Flowers
+                </Typography>
+                <Typography variant="body1" sx={{ color: "#ececec" }}>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  diam eros, dignissim et augue fermentum, fringilla feugiat
+                  libero. Pellentesque tincidunt facilisis tortor, vitae maximus
+                  nunc. Cras luctus augue in justo posuere faucibus. Duis odio
+                  magna, luctus id bibendum nec, interdum in mauris. Sed eget
+                  quam sed diam euismod mattis. In hac habitasse platea
+                  dictumst. Cras eu odio mi. Sed tristique venenatis enim vel
+                  elementum.
+                </Typography>
+              </Box>
+              <Box className="card" display="block">
+                <TiltCard
+                  cardColor="#31572c"
+                  borderColor="#132a13"
+                  image={plantImage}
+                  title="Solar Project"
+                  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             eleifend."
-              />
+                />
+              </Box>
             </Box>
           </Box>
           <Box className="left-side">

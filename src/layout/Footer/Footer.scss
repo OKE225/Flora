@@ -5,7 +5,12 @@ footer {
   align-items: center;
   background: #212529;
   height: 80px;
+
   span.footer-subtext {
     color: #adb5bd;
+  }
+
+  .icons a:hover {
+    color: white;
   }
 }

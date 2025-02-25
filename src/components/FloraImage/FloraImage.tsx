@@ -2,14 +2,12 @@ import React from "react";
 
 type Props = {
   source: string;
-  width?: string;
-  height?: string;
+  width: string;
   posRight?: string;
   posLeft?: string;
   posTop?: string;
   posBottom?: string;
-  zIndex?: number;
-  margin?: string;
+  zIndex: number;
   rotateDeg?: string;
 };
 
@@ -19,10 +17,8 @@ export const FloraImage: React.FC<Props> = ({
   posTop,
   posBottom,
   width,
-  height,
   source,
   zIndex,
-  margin,
   rotateDeg,
 }) => {
   return (
@@ -35,12 +31,10 @@ export const FloraImage: React.FC<Props> = ({
         position: "absolute",
         userSelect: "none",
         width: width,
-        height: height,
         right: posRight,
         left: posLeft,
         top: posTop,
         bottom: posBottom,
-        margin: margin,
         zIndex: zIndex,
         rotate: rotateDeg,
       }}

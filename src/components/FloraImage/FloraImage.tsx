@@ -28,7 +28,7 @@ export const FloraImage: React.FC<Props> = ({
       alt="Plant transparent"
       draggable={false}
       style={{
-        position: "absolute",
+        position: "fixed",
         userSelect: "none",
         width: width,
         right: posRight,

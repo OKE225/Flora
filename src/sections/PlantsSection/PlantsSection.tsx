@@ -36,7 +36,7 @@ export class PlantsSection extends Component {
           <FloraImage
             source={plantsTop}
             width="100%"
-            posTop="-42.5%"
+            posTop="-52.5%"
             zIndex={100}
           />
           <Box
@@ -91,23 +91,23 @@ export class PlantsSection extends Component {
           <Box className="left-side">
             <FloraImage
               source={plant1}
-              width="600px"
+              width="500px"
               posBottom="-50px"
-              posLeft="-100px"
+              posLeft="-90px"
               rotateDeg="11deg"
               zIndex={-1}
             />
             <FloraImage
               source={plant5}
-              width="350px"
-              posBottom="-120px"
-              posLeft="150px"
+              width="300px"
+              posBottom="-100px"
+              posLeft="120px"
               zIndex={-3}
             />
             <FloraImage
               source={plant2}
-              width="300px"
-              posBottom="-60px"
+              width="250px"
+              posBottom="-40px"
               posLeft="350px"
               rotateDeg="10deg"
               zIndex={-2}
@@ -116,7 +116,7 @@ export class PlantsSection extends Component {
           <Box className="right-side">
             <FloraImage
               source={plant6}
-              width="420px"
+              width="340px"
               posBottom="-40px"
               posRight="260px"
               rotateDeg="-8.45deg"
@@ -124,17 +124,17 @@ export class PlantsSection extends Component {
             />
             <FloraImage
               source={plant4}
-              width="500px"
-              posBottom="-100px"
-              posRight="-60px"
+              width="400px"
+              posBottom="-60px"
+              posRight="-50px"
               rotateDeg="-21deg"
               zIndex={-1}
             />
             <FloraImage
               source={plant3}
-              width="375px"
-              posBottom="150px"
-              posRight="-120px"
+              width="320px"
+              posBottom="180px"
+              posRight="-80px"
               rotateDeg="-27deg"
               zIndex={-2}
             />

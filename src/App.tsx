@@ -119,9 +119,9 @@ export const App = () => {
         <Box className="left-side">
           <FloraImage
             source={flowerRedTransparent1}
-            width="325px"
-            posBottom="550px"
-            posLeft="-110px"
+            width="280px"
+            posBottom="580px"
+            posLeft="-100px"
             rotateDeg="60deg"
             zIndex={-1}
           />
@@ -130,7 +130,7 @@ export const App = () => {
             width="300px"
             posBottom="-220px"
             posLeft="10px"
-            rotateDeg="5deg"
+            rotateDeg="10deg"
             zIndex={-1}
           />
         </Box>
@@ -145,7 +145,7 @@ export const App = () => {
           />
           <FloraImage
             source={flowerRedTransparent4}
-            width="500px"
+            width="450px"
             posBottom="-50px"
             posRight="-180px"
             rotateDeg="9deg"
@@ -232,17 +232,17 @@ export const App = () => {
         <Box className="left-side">
           <FloraImage
             source={flowerBlueTransparent1}
-            width="325px"
+            width="300px"
             posBottom="650px"
-            posLeft="-140px"
+            posLeft="-125px"
             rotateDeg="65deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerBlueTransparent6}
-            width="440px"
+            width="400px"
             posBottom="100px"
-            posLeft="-150px"
+            posLeft="-160px"
             rotateDeg="10deg"
             zIndex={-1}
           />
@@ -258,25 +258,25 @@ export const App = () => {
         <Box className="right-side">
           <FloraImage
             source={flowerBlueTransparent3}
-            width="600px"
-            posBottom="-100px"
-            posRight="120px"
+            width="450px"
+            posBottom="-60px"
+            posRight="100px"
             rotateDeg="-35deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerBlueTransparent4}
-            width="420px"
+            width="350px"
             posBottom="350px"
-            posRight="-180px"
+            posRight="-160px"
             rotateDeg="-35deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerBlueTransparent5}
-            width="220px"
-            posBottom="850px"
-            posRight="-100px"
+            width="180px"
+            posBottom="800px"
+            posRight="-90px"
             rotateDeg="45deg"
             zIndex={-1}
           />
@@ -353,33 +353,33 @@ export const App = () => {
         <Box className="left-side">
           <FloraImage
             source={flowerYellowTransparent7}
-            width="225px"
+            width="200px"
             posBottom="750px"
-            posLeft="-110px"
+            posLeft="-105px"
             rotateDeg="0deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerYellowTransparent3}
-            width="400px"
-            posBottom="50px"
-            posLeft="-160px"
-            rotateDeg="45deg"
+            width="350px"
+            posBottom="100px"
+            posLeft="-130px"
+            rotateDeg="40deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerYellowTransparent6}
-            width="550px"
-            posBottom="-275px"
-            posLeft="45px"
+            width="500px"
+            posBottom="-250px"
+            posLeft="40px"
             rotateDeg="20deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerYellowTransparent4}
-            width="220px"
-            posBottom="-110px"
-            posLeft="750px"
+            width="200px"
+            posBottom="-100px"
+            posLeft="700px"
             rotateDeg="0deg"
             zIndex={-1}
           />
@@ -387,25 +387,25 @@ export const App = () => {
         <Box className="right-side">
           <FloraImage
             source={flowerYellowTransparent5}
-            width="500px"
-            posBottom="-70px"
+            width="450px"
+            posBottom="-50px"
             posRight="0px"
             rotateDeg="0deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerYellowTransparent2}
-            width="400px"
-            posBottom="375px"
-            posRight="-165px"
-            rotateDeg="-40deg"
+            width="350px"
+            posBottom="350px"
+            posRight="-125px"
+            rotateDeg="-35deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerYellowTransparent1}
             width="125px"
-            posBottom="860px"
-            posRight="-70px"
+            posBottom="780px"
+            posRight="-65px"
             rotateDeg="0deg"
             zIndex={-1}
           />

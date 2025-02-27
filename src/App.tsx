@@ -53,8 +53,7 @@ export const App = () => {
         midtoneColor="#E20338"
         lowlightColor="#EE3D48"
         highlightColor="#B40A1B"
-        clipPath="polygon(0 5%, 100% 0%, 100% 95%, 0% 100%)"
-        marginTop="-3%">
+        clipPath="polygon(0 5%, 100% 0%, 100% 95%, 0% 100%)">
         <Box
           sx={{
             position: "relative",
@@ -166,8 +165,7 @@ export const App = () => {
         midtoneColor="#0043A4"
         lowlightColor="#01142F"
         highlightColor="#0351C1"
-        clipPath="polygon(0 5%, 100% 0%, 100% 100%, 0 95%)"
-        marginTop="-3%">
+        clipPath="polygon(0 5%, 100% 0%, 100% 100%, 0 95%)">
         <Box
           sx={{
             position: "relative",
@@ -287,8 +285,7 @@ export const App = () => {
         midtoneColor="#d2bd00"
         lowlightColor="#c5a700"
         highlightColor="#cca400"
-        clipPath="polygon(0 0, 100% 5%, 100% 100%, 0 95%)"
-        marginTop="-3%">
+        clipPath="polygon(0 0, 100% 5%, 100% 100%, 0 95%)">
         <Box
           sx={{
             position: "relative",

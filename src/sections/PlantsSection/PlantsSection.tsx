@@ -24,8 +24,7 @@ export class PlantsSection extends Component {
           lowlightColor: "#357d01",
           highlightColor: "#64b003",
         }}
-        clipPath="polygon(0 0, 100% 0%, 100% 95%, 0% 100%)"
-        marginTop="0">
+        clipPath="polygon(0 0, 100% 0%, 100% 95%, 0% 100%)">
         <Box
           className="plants-section"
           sx={{

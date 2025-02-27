@@ -11,7 +11,6 @@ type Props = {
     highlightColor: string;
   };
   clipPath: string;
-  marginTop: string;
   children: React.ReactNode;
 };
 
@@ -19,7 +18,6 @@ export const AnimatedBackground: React.FC<Props> = ({
   colors,
   clipPath,
   children,
-  marginTop,
 }) => {
   const ref = useRef(null);
 
@@ -55,7 +53,7 @@ export const AnimatedBackground: React.FC<Props> = ({
         height: "120vh",
         overflow: "hidden",
         clipPath: clipPath,
-        marginTop: marginTop,
+        marginTop: "-6.5vh",
       }}>
       {children}
     </Box>

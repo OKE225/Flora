@@ -28,9 +28,8 @@ export class PlantsSection extends Component {
         <Box
           className="plants-section"
           sx={{
-            height: "inherit",
+            height: "100%",
             overflow: "hidden",
-            position: "relative",
           }}>
           <FloraImage
             source={plantsTop}
@@ -40,51 +39,44 @@ export class PlantsSection extends Component {
           />
           <Box
             className="content-container"
-            sx={{ height: "100vh", position: "absolute" }}>
+            sx={{
+              height: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignContent: "center",
+              alignItems: "center",
+            }}>
             <Box
-              className="content"
+              className="typography-section"
+              mr={10}
               sx={{
-                position: "relative",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                zIndex: "99",
-                display: "flex",
-                alignContent: "center",
-                alignItems: "center",
-                width: "60%",
-                height: "100vh",
+                color: "white",
+                width: "40%",
               }}>
-              <Box
-                className="typography-section"
-                mr={20}
-                sx={{
-                  color: "white",
-                }}>
-                <Typography variant="h1" gutterBottom>
-                  <b>FLORA</b> Plants and Flowers
-                </Typography>
-                <Typography variant="body1" sx={{ color: "#ececec" }}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                  diam eros, dignissim et augue fermentum, fringilla feugiat
-                  libero. Pellentesque tincidunt facilisis tortor, vitae maximus
-                  nunc. Cras luctus augue in justo posuere faucibus. Duis odio
-                  magna, luctus id bibendum nec, interdum in mauris. Sed eget
-                  quam sed diam euismod mattis. In hac habitasse platea
-                  dictumst. Cras eu odio mi. Sed tristique venenatis enim vel
-                  elementum.
-                </Typography>
-              </Box>
-              <Box className="card" display="block">
-                <TiltCard
-                  cardColor="#31572c"
-                  borderColor="#132a13"
-                  image={plantImage}
-                  title="Solar Project"
-                  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              <Typography variant="h1" gutterBottom>
+                <b>FLORA</b> Plants and Flowers
+              </Typography>
+              <Typography
+                variant="body1"
+                sx={{ color: "#ececec", textAlign: "justify" }}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                diam eros, dignissim et augue fermentum, fringilla feugiat
+                libero. Pellentesque tincidunt facilisis tortor, vitae maximus
+                nunc. Cras luctus augue in justo posuere faucibus. Duis odio
+                magna, luctus id bibendum nec, interdum in mauris. Sed eget quam
+                sed diam euismod mattis. In hac habitasse platea dictumst. Cras
+                eu odio mi. Sed tristique venenatis enim vel elementum.
+              </Typography>
+            </Box>
+            <Box className="card" display="block">
+              <TiltCard
+                cardColor="#31572c"
+                borderColor="#132a13"
+                image={plantImage}
+                title="Solar Project"
+                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             eleifend."
-                />
-              </Box>
+              />
             </Box>
           </Box>
           <Box className="left-side">

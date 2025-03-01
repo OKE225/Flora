@@ -34,7 +34,7 @@ export class PlantsSection extends Component {
           <FloraImage
             source={plantsTop}
             width="100%"
-            posTop="-52.5%"
+            posTop="-20vw"
             zIndex={100}
           />
           <Box
@@ -82,24 +82,24 @@ export class PlantsSection extends Component {
           <Box className="left-side">
             <FloraImage
               source={plant1}
-              width="500px"
-              posBottom="-50px"
-              posLeft="-90px"
+              width="25%"
+              posBottom="-5%"
+              posLeft="-5%"
               rotateDeg="11deg"
               zIndex={-1}
             />
             <FloraImage
               source={plant5}
-              width="300px"
-              posBottom="-100px"
-              posLeft="120px"
+              width="15%"
+              posBottom="-10%"
+              posLeft="6.5%"
               zIndex={-3}
             />
             <FloraImage
               source={plant2}
-              width="250px"
-              posBottom="-40px"
-              posLeft="350px"
+              width="12.5%"
+              posBottom="-4%"
+              posLeft="18.5%"
               rotateDeg="10deg"
               zIndex={-2}
             />
@@ -107,25 +107,25 @@ export class PlantsSection extends Component {
           <Box className="right-side">
             <FloraImage
               source={plant6}
-              width="340px"
-              posBottom="-40px"
-              posRight="260px"
+              width="17.5%"
+              posBottom="-4%"
+              posRight="15%"
               rotateDeg="-8.45deg"
               zIndex={-2}
             />
             <FloraImage
               source={plant4}
-              width="400px"
-              posBottom="-60px"
-              posRight="-50px"
+              width="22.5%"
+              posBottom="-6%"
+              posRight="-2.5%"
               rotateDeg="-21deg"
               zIndex={-1}
             />
             <FloraImage
               source={plant3}
-              width="320px"
-              posBottom="180px"
-              posRight="-80px"
+              width="17.5%"
+              posBottom="20%"
+              posRight="-4%"
               rotateDeg="-27deg"
               zIndex={-2}
             />

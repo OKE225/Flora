@@ -118,17 +118,17 @@ export const App = () => {
         <Box className="left-side">
           <FloraImage
             source={flowerRedTransparent1}
-            width="280px"
-            posBottom="580px"
-            posLeft="-100px"
+            width="15%"
+            posBottom="57.5%"
+            posLeft="-5%"
             rotateDeg="60deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerRedTransparent2}
-            width="300px"
-            posBottom="-220px"
-            posLeft="10px"
+            width="16%"
+            posBottom="-25%"
+            posLeft="1%"
             rotateDeg="10deg"
             zIndex={-1}
           />
@@ -136,25 +136,25 @@ export const App = () => {
         <Box className="right-side">
           <FloraImage
             source={flowerRedTransparent5}
-            width="250px"
-            posBottom="-100px"
-            posRight="650px"
-            rotateDeg="-30deg"
+            width="13%"
+            posBottom="-11%"
+            posRight="35%"
+            rotateDeg="-20deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerRedTransparent4}
-            width="450px"
-            posBottom="-50px"
-            posRight="-180px"
+            width="25%"
+            posBottom="-5%"
+            posRight="-9%"
             rotateDeg="9deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerRedTransparent3}
-            width="220px"
-            posBottom="700px"
-            posRight="-80px"
+            width="11%"
+            posBottom="75%"
+            posRight="-4%"
             rotateDeg="45deg"
             zIndex={-1}
           />
@@ -230,25 +230,25 @@ export const App = () => {
         <Box className="left-side">
           <FloraImage
             source={flowerBlueTransparent1}
-            width="300px"
-            posBottom="650px"
-            posLeft="-125px"
+            width="15%"
+            posBottom="68%"
+            posLeft="-6.5%"
             rotateDeg="65deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerBlueTransparent6}
-            width="400px"
-            posBottom="100px"
-            posLeft="-160px"
-            rotateDeg="10deg"
+            width="22%"
+            posBottom="10%"
+            posLeft="-8.5%"
+            rotateDeg="17.5deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerBlueTransparent2}
-            width="300px"
-            posBottom="-180px"
-            posLeft="240px"
+            width="16%"
+            posBottom="-19%"
+            posLeft="22.5%"
             rotateDeg="5deg"
             zIndex={-1}
           />
@@ -256,25 +256,25 @@ export const App = () => {
         <Box className="right-side">
           <FloraImage
             source={flowerBlueTransparent3}
-            width="450px"
-            posBottom="-60px"
-            posRight="100px"
+            width="23%"
+            posBottom="-6%"
+            posRight="5%"
             rotateDeg="-35deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerBlueTransparent4}
-            width="350px"
-            posBottom="350px"
-            posRight="-160px"
+            width="18%"
+            posBottom="37.5%"
+            posRight="-8%"
             rotateDeg="-35deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerBlueTransparent5}
-            width="180px"
-            posBottom="800px"
-            posRight="-90px"
+            width="10%"
+            posBottom="82.5%"
+            posRight="-5%"
             rotateDeg="45deg"
             zIndex={-1}
           />
@@ -350,33 +350,33 @@ export const App = () => {
         <Box className="left-side">
           <FloraImage
             source={flowerYellowTransparent7}
-            width="200px"
-            posBottom="750px"
-            posLeft="-105px"
+            width="10.5%"
+            posBottom="78.5%"
+            posLeft="-5.5%"
             rotateDeg="0deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerYellowTransparent3}
-            width="350px"
-            posBottom="100px"
-            posLeft="-130px"
+            width="12.5%"
+            posBottom="20%"
+            posLeft="-5%"
             rotateDeg="40deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerYellowTransparent6}
-            width="500px"
-            posBottom="-250px"
-            posLeft="40px"
+            width="26%"
+            posBottom="-32.5%"
+            posLeft="2.5%"
             rotateDeg="20deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerYellowTransparent4}
-            width="200px"
-            posBottom="-100px"
-            posLeft="700px"
+            width="11%"
+            posBottom="-10%"
+            posLeft="37.5%"
             rotateDeg="0deg"
             zIndex={-1}
           />
@@ -384,25 +384,25 @@ export const App = () => {
         <Box className="right-side">
           <FloraImage
             source={flowerYellowTransparent5}
-            width="450px"
-            posBottom="-50px"
-            posRight="0px"
+            width="20%"
+            posBottom="-8%"
+            posRight="1%"
             rotateDeg="0deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerYellowTransparent2}
-            width="350px"
-            posBottom="350px"
-            posRight="-125px"
+            width="14%"
+            posBottom="38%"
+            posRight="-5%"
             rotateDeg="-35deg"
             zIndex={-1}
           />
           <FloraImage
             source={flowerYellowTransparent1}
-            width="125px"
-            posBottom="780px"
-            posRight="-65px"
+            width="6.5%"
+            posBottom="82.5%"
+            posRight="-3.5%"
             rotateDeg="0deg"
             zIndex={-1}
           />

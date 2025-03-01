@@ -43,3 +43,8 @@ body {
   visibility: hidden;
   background: transparent;
 }
+
+::selection {
+  background: black;
+  color: white;
+}

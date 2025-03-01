@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Flora/static/css/main.97c98a46.css",
-    "main.js": "/Flora/static/js/main.5ea452be.js",
+    "main.css": "/Flora/static/css/main.2d762d9f.css",
+    "main.js": "/Flora/static/js/main.cb580439.js",
     "static/media/plants_transparent_top.png": "/Flora/static/media/plants_transparent_top.4e891e5b8079c774fb32.png",
     "static/media/flower1.png": "/Flora/static/media/flower1.d3b8ff61bd1b1d80fac5.png",
     "static/media/flower_transparent_2.png": "/Flora/static/media/flower_transparent_2.39e42899bbc5fcbb7fcc.png",
@@ -27,11 +27,11 @@
     "static/media/employee1.jpg": "/Flora/static/media/employee1.f20133a78204308e564c.jpg",
     "static/media/employee2.jpg": "/Flora/static/media/employee2.c6ef7dd1e56ad1f1ea8b.jpg",
     "index.html": "/Flora/index.html",
-    "main.97c98a46.css.map": "/Flora/static/css/main.97c98a46.css.map",
-    "main.5ea452be.js.map": "/Flora/static/js/main.5ea452be.js.map"
+    "main.2d762d9f.css.map": "/Flora/static/css/main.2d762d9f.css.map",
+    "main.cb580439.js.map": "/Flora/static/js/main.cb580439.js.map"
   },
   "entrypoints": [
-    "static/css/main.97c98a46.css",
-    "static/js/main.5ea452be.js"
+    "static/css/main.2d762d9f.css",
+    "static/js/main.cb580439.js"
   ]
 }

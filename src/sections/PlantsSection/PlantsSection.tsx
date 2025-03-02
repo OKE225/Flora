@@ -34,7 +34,7 @@ export class PlantsSection extends Component {
           <FloraImage
             source={plantsTop}
             width="100%"
-            posTop="-20vw"
+            posTop="-25vw"
             zIndex={100}
           />
           <Box

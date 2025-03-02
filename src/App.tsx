@@ -86,15 +86,17 @@ export const App = () => {
                   sx={{
                     color: "white",
                     textAlign: "center",
-                  }}
-                  gutterBottom>
+                  }}>
                   ROSE
                 </Typography>
                 <Typography variant="body1" sx={{ color: "#ececec" }}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dignissimos nesciunt harum enim obcaecati a similique culpa
-                  esse tenetur, magni doloremque praesentium, ullam ipsa
-                  repudiandae fuga molestiae eum nulla ab consectetur.
+                  Our red rose projects, including the{" "}
+                  <b>Red Rose Initiative</b>, <b>Crimson Bloom Society</b>, and
+                  <b> Scarlet Petal Group</b>, embody the timeless allure of
+                  roses as symbols of love, passion, and elegance. These flowers
+                  ignite romance, attract admiration, and capture hearts with
+                  their vibrant colors and captivating scents, serving as a
+                  universal language of love for centuries.
                 </Typography>
               </Box>
               <Box
@@ -108,25 +110,22 @@ export const App = () => {
                   cardColor="#a4161a"
                   borderColor="#660708"
                   image={flowerRed1}
-                  title="lorem ipsum"
-                  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            eleifend."
+                  title="Red Rose Initiative"
+                  desc="Ignite passion and romance with our stunningly beautiful red roses."
                 />
                 <TiltCard
                   cardColor="#a4161a"
                   borderColor="#660708"
                   image={flowerRed2}
-                  title="lorem ipsum"
-                  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-          eleifend."
+                  title="Crimson Bloom Society"
+                  desc="Attract attention and admiration with our exceptionally vibrant red roses."
                 />
                 <TiltCard
                   cardColor="#a4161a"
                   borderColor="#660708"
                   image={flowerRed3}
-                  title="lorem ipsum"
-                  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-          eleifend."
+                  title="Scarlet Petal Group"
+                  desc="Step into elegance with our stunning red roses."
                 />
               </Box>
             </Box>
@@ -203,10 +202,13 @@ export const App = () => {
                   HYACINTH
                 </Typography>
                 <Typography variant="body1" sx={{ color: "#ececec" }}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dignissimos nesciunt harum enim obcaecati a similique culpa
-                  esse tenetur, magni doloremque praesentium, ullam ipsa
-                  repudiandae fuga molestiae eum nulla ab consectetur.
+                  Our blue hyacinth projects, including the{" "}
+                  <b>Blue Haven Project</b>, <b>Azure Bloom Initiative</b>, and
+                  <b> Cerulean Petal Society</b>, offer a serene escape into the
+                  captivating world of blue hyacinths. These flowers symbolize
+                  constancy and sincerity, providing a calming presence that
+                  invites you to experience tranquility and inner calm, perfect
+                  for creating peaceful environments.
                 </Typography>
               </Box>
               <Box
@@ -220,25 +222,22 @@ export const App = () => {
                   cardColor="#002855"
                   borderColor="#023e8a"
                   image={flowerBlue1}
-                  title="lorem ipsum"
-                  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-          eleifend."
+                  title="Blue Haven Project"
+                  desc="Find serenity with our captivating blue hyacinths."
                 />
                 <TiltCard
                   cardColor="#002855"
                   borderColor="#023e8a"
                   image={flowerBlue2}
-                  title="lorem ipsum"
-                  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-        eleifend."
+                  title="Azure Bloom Initiative"
+                  desc="Experience tranquility with our beautiful blue hyacinths."
                 />
                 <TiltCard
                   cardColor="#002855"
                   borderColor="#023e8a"
                   image={flowerBlue3}
-                  title="lorem ipsum"
-                  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-        eleifend."
+                  title="Cerulean Petal Society"
+                  desc="Indulge in the charm of our vibrant blue hyacinths."
                 />
               </Box>
             </Box>
@@ -323,10 +322,14 @@ export const App = () => {
                   SUNFLOWER
                 </Typography>
                 <Typography variant="body1" sx={{ color: "#ececec" }}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dignissimos nesciunt harum enim obcaecati a similique culpa
-                  esse tenetur, magni doloremque praesentium, ullam ipsa
-                  repudiandae fuga molestiae eum nulla ab consectetur.
+                  Our sunflower projects, including the{" "}
+                  <b>Sunshine Flower Project</b>,{" "}
+                  <b>Golden Bloom Organization</b>, and{" "}
+                  <b>Yellow Petal Initiative</b>, bring joy and warmth with
+                  their cheerful yellow sunflowers. Symbolizing happiness,
+                  positivity, and loyalty, these flowers evoke optimism and
+                  resilience, making them perfect for brightening spaces and
+                  spreading warmth.
                 </Typography>
               </Box>
               <Box
@@ -340,25 +343,22 @@ export const App = () => {
                   cardColor="#cca000"
                   borderColor="#76520e"
                   image={flowerYellow1}
-                  title="lorem ipsum"
-                  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-      eleifend."
+                  title="Sunshine Flower Project"
+                  desc="Brighten up with our cheerful yellow sunflowers."
                 />
                 <TiltCard
                   cardColor="#cca000"
                   borderColor="#76520e"
                   image={flowerYellow2}
-                  title="lorem ipsum"
-                  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-    eleifend."
+                  title="Golden Bloom Organization"
+                  desc="Spread warmth and joy with our incredibly radiant yellow sunflowers."
                 />
                 <TiltCard
                   cardColor="#cca000"
                   borderColor="#76520e"
                   image={flowerYellow3}
-                  title="lorem ipsum"
-                  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-    eleifend."
+                  title="Yellow Petal Initiative"
+                  desc="Embrace happiness with our vibrant yellow sunflowers."
                 />
               </Box>
             </Box>
@@ -450,10 +450,12 @@ export const App = () => {
                   OUR TEAM
                 </Typography>
                 <Typography variant="body1" sx={{ color: "#ececec" }}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dignissimos nesciunt harum enim obcaecati a similique culpa
-                  esse tenetur, magni doloremque praesentium, ullam ipsa
-                  repudiandae fuga molestiae eum nulla ab consectetur.
+                  Our team is comprised of passionate individuals with diverse
+                  backgrounds and expertise, united by a shared vision of
+                  excellence and innovation. We foster a collaborative culture
+                  of growth and inclusivity, driven by a passion for creating
+                  meaningful experiences that inspire and connect people, while
+                  making a positive impact in our community and beyond.
                 </Typography>
               </Box>
               <Box

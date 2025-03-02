@@ -59,13 +59,22 @@ export class PlantsSection extends Component {
               <Typography
                 variant="body1"
                 sx={{ color: "#ececec", textAlign: "justify" }}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                diam eros, dignissim et augue fermentum, fringilla feugiat
-                libero. Pellentesque tincidunt facilisis tortor, vitae maximus
-                nunc. Cras luctus augue in justo posuere faucibus. Duis odio
-                magna, luctus id bibendum nec, interdum in mauris. Sed eget quam
-                sed diam euismod mattis. In hac habitasse platea dictumst. Cras
-                eu odio mi. Sed tristique venenatis enim vel elementum.
+                The <b>Green Life Project</b> invites you to discover the beauty
+                of nature through our unique plants. This initiative is part of
+                a broader movement to promote sustainability and environmental
+                conservation, similar to other projects around the world that
+                focus on restoring ecosystems and promoting biodiversity. Our
+                project highlights the importance of plants in enhancing both
+                aesthetic appeal and ecological balance.{" "}
+                <span>
+                  By selecting species that are not only visually striking but
+                  also beneficial for the environment, we aim to create spaces
+                  that are both beautiful and sustainable. Whether it's through
+                  the use of plants for air purification, soil stabilization, or
+                  simply as a source of natural beauty, our goal is to inspire a
+                  deeper connection with nature and foster a greener future for
+                  all.
+                </span>
               </Typography>
             </Box>
             <Box className="card" display="block">
@@ -73,9 +82,8 @@ export class PlantsSection extends Component {
                 cardColor="#31572c"
                 borderColor="#132a13"
                 image={plantImage}
-                title="Solar Project"
-                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            eleifend."
+                title="Green Life Project"
+                desc="Discover the beauty of nature with our unique plants."
               />
             </Box>
           </Box>

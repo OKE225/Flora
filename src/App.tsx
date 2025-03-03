@@ -86,7 +86,8 @@ export const App = () => {
                   sx={{
                     color: "white",
                     textAlign: "center",
-                  }}>
+                  }}
+                  gutterBottom>
                   ROSE
                 </Typography>
                 <Typography variant="body1" sx={{ color: "#ececec" }}>
@@ -340,21 +341,21 @@ export const App = () => {
                   marginTop: "80px",
                 }}>
                 <TiltCard
-                  cardColor="#cca000"
+                  cardColor="#b69121"
                   borderColor="#76520e"
                   image={flowerYellow1}
                   title="Sunshine Flower Project"
                   desc="Brighten up with our cheerful yellow sunflowers."
                 />
                 <TiltCard
-                  cardColor="#cca000"
+                  cardColor="#b69121"
                   borderColor="#76520e"
                   image={flowerYellow2}
                   title="Golden Bloom Organization"
                   desc="Spread warmth and joy with our incredibly radiant yellow sunflowers."
                 />
                 <TiltCard
-                  cardColor="#cca000"
+                  cardColor="#b69121"
                   borderColor="#76520e"
                   image={flowerYellow3}
                   title="Yellow Petal Initiative"

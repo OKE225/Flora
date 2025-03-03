@@ -71,7 +71,7 @@ export const TiltCardEmployee: React.FC<Props> = (props) => {
             <Typography
               variant="body1"
               sx={{
-                color: "#f8f9fa",
+                color: "#dee2e6",
                 textAlign: "justify",
               }}>
               {props.bio}

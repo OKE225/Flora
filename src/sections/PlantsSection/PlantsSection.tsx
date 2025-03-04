@@ -107,7 +107,7 @@ export class PlantsSection extends Component {
               source={plant2}
               width="12.5%"
               posBottom="-4%"
-              posLeft="18.5%"
+              posLeft="17.5%"
               rotateDeg="10deg"
               zIndex={-2}
             />

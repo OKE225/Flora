@@ -383,7 +383,7 @@ export const App = () => {
               <FloraImage
                 source={flowerYellowTransparent6}
                 width="26%"
-                posBottom="-32.5%"
+                posBottom="-37.5%"
                 posLeft="2.5%"
                 rotateDeg="20deg"
                 zIndex={-1}

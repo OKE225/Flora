@@ -52,6 +52,9 @@ export class PlantsSection extends Component {
               sx={{
                 color: "white",
                 width: "40%",
+                "@media (min-width: 1920px)": {
+                  maxWidth: "calc(1920px * 0.40)",
+                },
               }}>
               <Typography variant="h1" gutterBottom>
                 <b>FLORA</b> Plants and Flowers

@@ -79,8 +79,15 @@ export const App = () => {
                 flexDirection: "column",
                 justifyContent: "center",
                 zIndex: "10",
+                "@media (min-width: 1920px)": {
+                  maxWidth: "calc(1920px * 0.8)",
+                },
               }}>
-              <Box sx={{ width: "60%", margin: "0 auto" }}>
+              <Box
+                sx={{
+                  width: "60%",
+                  margin: "0 auto",
+                }}>
                 <Typography
                   variant="h2"
                   sx={{
@@ -141,7 +148,7 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerRedTransparent2}
-                width="16%"
+                width="15%"
                 posBottom="-25%"
                 posLeft="1%"
                 rotateDeg="10deg"
@@ -159,7 +166,7 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerRedTransparent4}
-                width="25%"
+                width="22.5%"
                 posBottom="-5%"
                 posRight="-9%"
                 rotateDeg="9deg"
@@ -191,6 +198,9 @@ export const App = () => {
                 flexDirection: "column",
                 justifyContent: "center",
                 zIndex: "10",
+                "@media (min-width: 1920px)": {
+                  maxWidth: "calc(1920px * 0.8)",
+                },
               }}>
               <Box sx={{ width: "60%", margin: "0 auto" }}>
                 <Typography
@@ -271,7 +281,7 @@ export const App = () => {
             <Box className="right-side">
               <FloraImage
                 source={flowerBlueTransparent3}
-                width="23%"
+                width="20%"
                 posBottom="-6%"
                 posRight="5%"
                 rotateDeg="-35deg"
@@ -311,6 +321,9 @@ export const App = () => {
                 flexDirection: "column",
                 justifyContent: "center",
                 zIndex: "10",
+                "@media (min-width: 1920px)": {
+                  maxWidth: "calc(1920px * 0.8)",
+                },
               }}>
               <Box sx={{ width: "60%", margin: "0 auto" }}>
                 <Typography
@@ -382,7 +395,7 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerYellowTransparent6}
-                width="26%"
+                width="25%"
                 posBottom="-37.5%"
                 posLeft="2.5%"
                 rotateDeg="20deg"
@@ -400,7 +413,7 @@ export const App = () => {
             <Box className="right-side">
               <FloraImage
                 source={flowerYellowTransparent5}
-                width="20%"
+                width="17.5%"
                 posBottom="-8%"
                 posRight="1%"
                 rotateDeg="0deg"
@@ -439,6 +452,9 @@ export const App = () => {
                 flexDirection: "column",
                 justifyContent: "center",
                 zIndex: "10",
+                "@media (min-width: 1920px)": {
+                  maxWidth: "calc(1920px * 0.8)",
+                },
               }}>
               <Box sx={{ width: "60%", margin: "0 auto" }}>
                 <Typography

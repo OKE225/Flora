@@ -16,6 +16,9 @@ export const Footer = () => {
           justifyContent: "space-between",
           alignContent: "center",
           alignItems: "center",
+          "@media (min-width: 1920px)": {
+            maxWidth: "calc(1920px * 0.8)",
+          },
         }}
         color="white">
         <Typography variant="h6">

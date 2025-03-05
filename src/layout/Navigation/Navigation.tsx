@@ -22,15 +22,28 @@ export const Navigation = () => {
           FLORA
         </Link>
       </Typography>
-      <Box sx={{ fontSize: "24px" }}>
+      <Box
+        sx={{
+          fontSize: "24px",
+          display: "flex",
+        }}>
         <Link
           href="https://discord.com/users/676854872678858771"
           color="inherit"
           underline="none"
-          sx={{ mr: 2 }}>
+          sx={{
+            mr: 1,
+            display: "flex",
+            justifyContent: "center",
+            padding: 0,
+          }}>
           <FaDiscord />
         </Link>
-        <Link href="https://github.com/OKE225" color="inherit" underline="none">
+        <Link
+          href="https://github.com/OKE225"
+          color="inherit"
+          underline="none"
+          sx={{ ml: 1, display: "flex", justifyContent: "center", padding: 0 }}>
           <TbBrandGithubFilled />
         </Link>
       </Box>

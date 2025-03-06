@@ -1,14 +1,33 @@
 import React from "react";
 import { Box, Typography, Link } from "@mui/material";
-import "./Footer.scss";
 import { FaDiscord } from "react-icons/fa";
 import { TbBrandGithubFilled } from "react-icons/tb";
 import { SiMonkeytype } from "react-icons/si";
 import { FaCodepen } from "react-icons/fa";
 
 export const Footer = () => {
+  const linkStyles = {
+    display: "flex",
+    alignItems: "center",
+    mr: 1,
+    ml: 1,
+    fontSize: 24,
+    transition: "all 0.2s ease-in-out",
+    ".icons &:hover": {
+      color: "white",
+    },
+  };
+
   return (
-    <footer>
+    <Box
+      component="footer"
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        background: "#212529",
+        height: "80px",
+      }}>
       <Box
         sx={{
           width: "80%",
@@ -22,7 +41,13 @@ export const Footer = () => {
         }}
         color="white">
         <Typography variant="h6">
-          <span className="footer-subtext">Copyright © 2025 by</span> oke_225
+          <Box
+            component="span"
+            className="footer-subtext"
+            sx={{ color: "#adb5bd" }}>
+            Copyright © 2025 by
+          </Box>{" "}
+          oke_225
         </Typography>
         <Box
           className="icons"
@@ -35,56 +60,32 @@ export const Footer = () => {
             href="https://discord.com/users/676854872678858771"
             color="inherit"
             underline="none"
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              mr: 3,
-              fontSize: 24,
-              transition: "all 0.2s ease-in-out",
-            }}>
+            sx={linkStyles}>
             <FaDiscord />
           </Link>
           <Link
             href="https://github.com/OKE225"
             color="inherit"
             underline="none"
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              mr: 3,
-              fontSize: 24,
-              transition: "all 0.2s ease-in-out",
-            }}>
+            sx={linkStyles}>
             <TbBrandGithubFilled />
           </Link>
           <Link
             href="https://monkeytype.com/profile/oke225"
             color="inherit"
             underline="none"
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              mr: 3,
-              fontSize: 24,
-              transition: "all 0.2s ease-in-out",
-            }}>
+            sx={linkStyles}>
             <SiMonkeytype />
           </Link>
           <Link
             href="https://codepen.io/OKE225"
             color="inherit"
             underline="none"
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              mr: 3,
-              fontSize: 24,
-              transition: "all 0.2s ease-in-out",
-            }}>
+            sx={linkStyles}>
             <FaCodepen />
           </Link>
         </Box>
       </Box>
-    </footer>
+    </Box>
   );
 };

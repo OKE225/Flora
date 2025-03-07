@@ -31,12 +31,6 @@ export class PlantsSection extends Component {
             height: "100%",
             overflow: "hidden",
           }}>
-          <FloraImage
-            source={plantsTop}
-            width="100%"
-            posTop="-25vw"
-            zIndex={100}
-          />
           <Box
             className="content-container"
             sx={{
@@ -90,7 +84,13 @@ export class PlantsSection extends Component {
               />
             </Box>
           </Box>
-          <Box className="left-side">
+          <Box className="flora-image-section">
+            <FloraImage
+              source={plantsTop}
+              width="100%"
+              posTop="-25vw"
+              zIndex={100}
+            />
             <FloraImage
               source={plant1}
               width="25%"
@@ -114,8 +114,6 @@ export class PlantsSection extends Component {
               rotateDeg="10deg"
               zIndex={-2}
             />
-          </Box>
-          <Box className="right-side">
             <FloraImage
               source={plant6}
               width="17.5%"

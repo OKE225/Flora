@@ -137,7 +137,7 @@ export const App = () => {
                 />
               </Box>
             </Box>
-            <Box className="left-side">
+            <Box className="flora-image-section">
               <FloraImage
                 source={flowerRedTransparent1}
                 width="15%"
@@ -154,8 +154,6 @@ export const App = () => {
                 rotateDeg="10deg"
                 zIndex={-1}
               />
-            </Box>
-            <Box className="right-side">
               <FloraImage
                 source={flowerRedTransparent5}
                 width="13%"
@@ -252,7 +250,7 @@ export const App = () => {
                 />
               </Box>
             </Box>
-            <Box className="left-side">
+            <Box className="flora-image-section">
               <FloraImage
                 source={flowerBlueTransparent1}
                 width="15%"
@@ -277,8 +275,6 @@ export const App = () => {
                 rotateDeg="5deg"
                 zIndex={-1}
               />
-            </Box>
-            <Box className="right-side">
               <FloraImage
                 source={flowerBlueTransparent3}
                 width="20%"
@@ -376,7 +372,7 @@ export const App = () => {
                 />
               </Box>
             </Box>
-            <Box className="left-side">
+            <Box className="flora-image-section">
               <FloraImage
                 source={flowerYellowTransparent7}
                 width="10.5%"
@@ -409,8 +405,6 @@ export const App = () => {
                 rotateDeg="0deg"
                 zIndex={-1}
               />
-            </Box>
-            <Box className="right-side">
               <FloraImage
                 source={flowerYellowTransparent5}
                 width="17.5%"

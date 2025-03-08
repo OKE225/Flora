@@ -48,11 +48,11 @@ export const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    window.onload = () => {
-      setTimeout(() => {
-        setIsLoading(false);
-      }, 500);
-    };
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1250);
+
+    return () => clearTimeout(timer);
   }, []);
 
   return (

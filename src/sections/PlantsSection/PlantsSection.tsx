@@ -28,8 +28,19 @@ export class PlantsSection extends Component {
         <Box
           className="plants-section"
           sx={{
-            height: "100%",
+            height: "auto",
+            minHeight: {
+              xs: "140vh",
+              sm: "140vh",
+              md: "120vh",
+              lg: "120vh",
+              xl: "120vh",
+            },
             overflow: "hidden",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-evenly",
+            mt: "10vh",
           }}>
           <Box
             className="content-container"
@@ -39,23 +50,69 @@ export class PlantsSection extends Component {
               justifyContent: "center",
               alignContent: "center",
               alignItems: "center",
+              flexDirection: {
+                xs: "column",
+                sm: "column",
+                md: "row",
+                lg: "row",
+                xl: "row",
+              },
             }}>
             <Box
               className="typography-section"
-              mr={10}
               sx={{
                 color: "white",
-                width: "40%",
+                mr: {
+                  xs: 0,
+                  sm: 0,
+                  md: 6,
+                  lg: 8,
+                  xl: 10,
+                },
+                width: {
+                  xs: "95%",
+                  sm: "90%",
+                  md: "55%",
+                  lg: "45%",
+                  xl: "40%",
+                },
+                textAlign: {
+                  xs: "center",
+                  sm: "center",
+                  md: "start",
+                  lg: "start",
+                  xl: "start",
+                },
                 "@media (min-width: 1920px)": {
                   maxWidth: "calc(1920px * 0.40)",
                 },
               }}>
-              <Typography variant="h1" gutterBottom>
+              <Typography
+                variant="h2"
+                sx={{
+                  fontSize: {
+                    xs: 52,
+                    sm: 84,
+                    md: 76,
+                    lg: 84,
+                    xl: 95,
+                  },
+                }}
+                gutterBottom>
                 <b>FLORA</b> Plants and Flowers
               </Typography>
               <Typography
                 variant="body1"
-                sx={{ color: "#ececec", textAlign: "justify" }}>
+                sx={{
+                  color: "#ececec",
+                  textAlign: {
+                    xs: "center",
+                    sm: "center",
+                    md: "start",
+                    lg: "start",
+                    xl: "start",
+                  },
+                }}>
                 The <b>Green Life Project</b> invites you to discover the beauty
                 of nature through our unique plants. This initiative is part of
                 a broader movement to promote sustainability and environmental
@@ -63,7 +120,17 @@ export class PlantsSection extends Component {
                 focus on restoring ecosystems and promoting biodiversity. Our
                 project highlights the importance of plants in enhancing both
                 aesthetic appeal and ecological balance.{" "}
-                <span>
+                <Box
+                  component="span"
+                  sx={{
+                    display: {
+                      xs: "none",
+                      sm: "none",
+                      md: "none",
+                      lg: "none",
+                      xl: "inline",
+                    },
+                  }}>
                   By selecting species that are not only visually striking but
                   also beneficial for the environment, we aim to create spaces
                   that are both beautiful and sustainable. Whether it's through
@@ -71,10 +138,21 @@ export class PlantsSection extends Component {
                   simply as a source of natural beauty, our goal is to inspire a
                   deeper connection with nature and foster a greener future for
                   all.
-                </span>
+                </Box>
               </Typography>
             </Box>
-            <Box className="card" display="block">
+            <Box
+              className="card"
+              display="block"
+              sx={{
+                mt: {
+                  xs: 5,
+                  sm: 5,
+                  md: 0,
+                  lg: 0,
+                  xl: 0,
+                },
+              }}>
               <TiltCard
                 cardColor="#31572c"
                 borderColor="#132a13"

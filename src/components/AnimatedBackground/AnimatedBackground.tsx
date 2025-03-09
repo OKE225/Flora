@@ -50,10 +50,23 @@ export const AnimatedBackground: React.FC<Props> = ({
       ref={ref}
       sx={{
         width: "100%",
-        height: "120vh",
+        minHeight: {
+          xs: "140vh",
+          sm: "140vh",
+          md: "120vh",
+          lg: "120vh",
+          xl: "120vh",
+        },
+        height: "auto",
         overflow: "hidden",
         clipPath: clipPath,
-        marginTop: "-6.5vh",
+        marginTop: {
+          xs: "-8vh",
+          sm: "-8vh",
+          md: "-6.5vh",
+          lg: "-6.5vh",
+          xl: "-6.5vh",
+        },
       }}>
       {children}
     </Box>

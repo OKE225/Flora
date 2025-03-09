@@ -11,7 +11,13 @@ export const Footer = () => {
     alignItems: "center",
     mr: 1,
     ml: 1,
-    fontSize: 24,
+    fontSize: {
+      xs: 22,
+      sm: 26,
+      md: 24,
+      lg: 24,
+      xl: 24,
+    },
     transition: "all 0.2s ease-in-out",
     ".icons &:hover": {
       color: "white",
@@ -27,10 +33,18 @@ export const Footer = () => {
         alignItems: "center",
         background: "#212529",
         height: "80px",
+        marginTop: "-1px",
+        overflow: "hidden",
       }}>
       <Box
         sx={{
-          width: "80%",
+          width: {
+            xs: "95%",
+            sm: "95%",
+            md: "80%",
+            lg: "80%",
+            xl: "80%",
+          },
           display: "flex",
           justifyContent: "space-between",
           alignContent: "center",

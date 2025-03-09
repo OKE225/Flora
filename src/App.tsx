@@ -72,8 +72,21 @@ export const App = () => {
             <Box
               sx={{
                 position: "relative",
-                width: "80%",
-                height: "inherit",
+                width: {
+                  xs: "95%",
+                  sm: "90%",
+                  md: "100%",
+                  lg: "100%",
+                  xl: "80%",
+                },
+                height: "auto",
+                minHeight: {
+                  xs: "140vh",
+                  sm: "140vh",
+                  md: "120vh",
+                  lg: "120vh",
+                  xl: "120vh",
+                },
                 margin: "0 auto",
                 display: "flex",
                 flexDirection: "column",
@@ -85,14 +98,34 @@ export const App = () => {
               }}>
               <Box
                 sx={{
-                  width: "60%",
+                  width: {
+                    xs: "100%",
+                    sm: "100%",
+                    md: "80%",
+                    lg: "80%",
+                    xl: "60%",
+                  },
                   margin: "0 auto",
+                  textAlign: {
+                    xs: "center",
+                    sm: "center",
+                    md: "start",
+                    lg: "start",
+                    xl: "start",
+                  },
                 }}>
                 <Typography
                   variant="h2"
                   sx={{
                     color: "white",
                     textAlign: "center",
+                    fontSize: {
+                      xs: 52,
+                      sm: 84,
+                      md: 76,
+                      lg: 84,
+                      xl: 95,
+                    },
                   }}
                   gutterBottom>
                   ROSE
@@ -112,7 +145,21 @@ export const App = () => {
                 sx={{
                   display: "flex",
                   justifyContent: "space-around",
-                  marginTop: "80px",
+                  flexDirection: {
+                    xs: "column",
+                    sm: "column",
+                    md: "row",
+                    lg: "row",
+                    xl: "row",
+                  },
+                  alignItems: "center",
+                  marginTop: {
+                    xs: 5,
+                    sm: 10,
+                    md: 5,
+                    lg: 5,
+                    xl: 10,
+                  },
                 }}>
                 <TiltCard
                   cardColor="#a4161a"
@@ -127,6 +174,7 @@ export const App = () => {
                   image={flowerRed2}
                   title="Crimson Bloom Society"
                   desc="Attract attention and admiration with our exceptionally vibrant red roses."
+                  hideOnMobile
                 />
                 <TiltCard
                   cardColor="#a4161a"
@@ -134,6 +182,7 @@ export const App = () => {
                   image={flowerRed3}
                   title="Scarlet Petal Group"
                   desc="Step into elegance with our stunning red roses."
+                  hideOnMobile
                 />
               </Box>
             </Box>
@@ -189,8 +238,21 @@ export const App = () => {
             <Box
               sx={{
                 position: "relative",
-                width: "80%",
-                height: "inherit",
+                width: {
+                  xs: "95%",
+                  sm: "90%",
+                  md: "100%",
+                  lg: "100%",
+                  xl: "80%",
+                },
+                height: "auto",
+                minHeight: {
+                  xs: "140vh",
+                  sm: "140vh",
+                  md: "120vh",
+                  lg: "120vh",
+                  xl: "120vh",
+                },
                 margin: "0 auto",
                 display: "flex",
                 flexDirection: "column",
@@ -200,12 +262,36 @@ export const App = () => {
                   maxWidth: "calc(1920px * 0.8)",
                 },
               }}>
-              <Box sx={{ width: "60%", margin: "0 auto" }}>
+              <Box
+                sx={{
+                  width: {
+                    xs: "100%",
+                    sm: "100%",
+                    md: "80%",
+                    lg: "80%",
+                    xl: "60%",
+                  },
+                  margin: "0 auto",
+                  textAlign: {
+                    xs: "center",
+                    sm: "center",
+                    md: "start",
+                    lg: "start",
+                    xl: "start",
+                  },
+                }}>
                 <Typography
                   variant="h2"
                   sx={{
                     color: "white",
                     textAlign: "center",
+                    fontSize: {
+                      xs: 52,
+                      sm: 84,
+                      md: 76,
+                      lg: 84,
+                      xl: 95,
+                    },
                   }}
                   gutterBottom>
                   HYACINTH
@@ -225,7 +311,21 @@ export const App = () => {
                 sx={{
                   display: "flex",
                   justifyContent: "space-around",
-                  marginTop: "80px",
+                  flexDirection: {
+                    xs: "column",
+                    sm: "column",
+                    md: "row",
+                    lg: "row",
+                    xl: "row",
+                  },
+                  alignItems: "center",
+                  marginTop: {
+                    xs: 5,
+                    sm: 10,
+                    md: 5,
+                    lg: 5,
+                    xl: 10,
+                  },
                 }}>
                 <TiltCard
                   cardColor="#002855"
@@ -240,6 +340,7 @@ export const App = () => {
                   image={flowerBlue2}
                   title="Azure Bloom Initiative"
                   desc="Experience tranquility with our beautiful blue hyacinths."
+                  hideOnMobile
                 />
                 <TiltCard
                   cardColor="#002855"
@@ -247,6 +348,7 @@ export const App = () => {
                   image={flowerBlue3}
                   title="Cerulean Petal Society"
                   desc="Indulge in the charm of our vibrant blue hyacinths."
+                  hideOnMobile
                 />
               </Box>
             </Box>
@@ -310,8 +412,21 @@ export const App = () => {
             <Box
               sx={{
                 position: "relative",
-                width: "80%",
-                height: "inherit",
+                width: {
+                  xs: "95%",
+                  sm: "90%",
+                  md: "100%",
+                  lg: "100%",
+                  xl: "80%",
+                },
+                height: "auto",
+                minHeight: {
+                  xs: "140vh",
+                  sm: "140vh",
+                  md: "120vh",
+                  lg: "120vh",
+                  xl: "120vh",
+                },
                 margin: "0 auto",
                 display: "flex",
                 flexDirection: "column",
@@ -321,20 +436,43 @@ export const App = () => {
                   maxWidth: "calc(1920px * 0.8)",
                 },
               }}>
-              <Box sx={{ width: "60%", margin: "0 auto" }}>
+              <Box
+                sx={{
+                  width: {
+                    xs: "100%",
+                    sm: "100%",
+                    md: "80%",
+                    lg: "80%",
+                    xl: "60%",
+                  },
+                  margin: "0 auto",
+                  textAlign: {
+                    xs: "center",
+                    sm: "center",
+                    md: "start",
+                    lg: "start",
+                    xl: "start",
+                  },
+                }}>
                 <Typography
                   variant="h2"
                   sx={{
                     color: "white",
                     textAlign: "center",
+                    fontSize: {
+                      xs: 52,
+                      sm: 84,
+                      md: 76,
+                      lg: 84,
+                      xl: 95,
+                    },
                   }}
                   gutterBottom>
                   SUNFLOWER
                 </Typography>
                 <Typography variant="body1" sx={{ color: "#ececec" }}>
                   Our sunflower projects, including the{" "}
-                  <b>Sunshine Flower Project</b>,{" "}
-                  <b>Golden Bloom Organization</b>, and{" "}
+                  <b>Sunshine Flower Project</b>, <b>Golden Bloom Group</b>, and{" "}
                   <b>Yellow Petal Initiative</b>, bring joy and warmth with
                   their cheerful yellow sunflowers. Symbolizing happiness,
                   positivity, and loyalty, these flowers evoke optimism and
@@ -347,7 +485,21 @@ export const App = () => {
                 sx={{
                   display: "flex",
                   justifyContent: "space-around",
-                  marginTop: "80px",
+                  flexDirection: {
+                    xs: "column",
+                    sm: "column",
+                    md: "row",
+                    lg: "row",
+                    xl: "row",
+                  },
+                  alignItems: "center",
+                  marginTop: {
+                    xs: 5,
+                    sm: 10,
+                    md: 5,
+                    lg: 5,
+                    xl: 10,
+                  },
                 }}>
                 <TiltCard
                   cardColor="#b69121"
@@ -360,8 +512,9 @@ export const App = () => {
                   cardColor="#b69121"
                   borderColor="#76520e"
                   image={flowerYellow2}
-                  title="Golden Bloom Organization"
+                  title="Golden Bloom Group"
                   desc="Spread warmth and joy with our incredibly radiant yellow sunflowers."
+                  hideOnMobile
                 />
                 <TiltCard
                   cardColor="#b69121"
@@ -369,6 +522,7 @@ export const App = () => {
                   image={flowerYellow3}
                   title="Yellow Petal Initiative"
                   desc="Embrace happiness with our vibrant yellow sunflowers."
+                  hideOnMobile
                 />
               </Box>
             </Box>
@@ -439,8 +593,21 @@ export const App = () => {
             <Box
               sx={{
                 position: "relative",
-                width: "80%",
-                height: "inherit",
+                width: {
+                  xs: "95%",
+                  sm: "90%",
+                  md: "100%",
+                  lg: "100%",
+                  xl: "80%",
+                },
+                height: "auto",
+                minHeight: {
+                  xs: "140vh",
+                  sm: "140vh",
+                  md: "120vh",
+                  lg: "120vh",
+                  xl: "120vh",
+                },
                 margin: "0 auto",
                 display: "flex",
                 flexDirection: "column",
@@ -450,12 +617,36 @@ export const App = () => {
                   maxWidth: "calc(1920px * 0.8)",
                 },
               }}>
-              <Box sx={{ width: "60%", margin: "0 auto" }}>
+              <Box
+                sx={{
+                  width: {
+                    xs: "100%",
+                    sm: "100%",
+                    md: "80%",
+                    lg: "80%",
+                    xl: "60%",
+                  },
+                  margin: "0 auto",
+                  textAlign: {
+                    xs: "center",
+                    sm: "center",
+                    md: "start",
+                    lg: "start",
+                    xl: "start",
+                  },
+                }}>
                 <Typography
                   variant="h2"
                   sx={{
                     color: "white",
                     textAlign: "center",
+                    fontSize: {
+                      xs: 52,
+                      sm: 84,
+                      md: 76,
+                      lg: 84,
+                      xl: 95,
+                    },
                   }}
                   gutterBottom>
                   OUR TEAM
@@ -474,7 +665,21 @@ export const App = () => {
                 sx={{
                   display: "flex",
                   justifyContent: "space-around",
-                  marginTop: "80px",
+                  flexDirection: {
+                    xs: "column",
+                    sm: "column",
+                    md: "row",
+                    lg: "row",
+                    xl: "row",
+                  },
+                  alignItems: "center",
+                  marginTop: {
+                    xs: 5,
+                    sm: 10,
+                    md: 5,
+                    lg: 5,
+                    xl: 10,
+                  },
                 }}>
                 <TiltCardEmployee
                   cardColor="#343a40"
@@ -484,6 +689,7 @@ export const App = () => {
                   lastname="Thompson"
                   photo={employee1}
                   bio="Ethan Thompson is a seasoned team leader with over 8 years of experience in managing databases. He specializes in performance optimization and data security, having previously worked as a senior DBA with expertise in SQL Server and Oracle."
+                  hideOnMobile
                 />
                 <TiltCardEmployee
                   cardColor="#343a40"
@@ -502,6 +708,7 @@ export const App = () => {
                   lastname="Patel"
                   photo={employee3}
                   bio="Sophia Patel is a skilled UI/UX team leader with 6 years of experience in designing mobile apps and websites. She excels at using Sketch, Figma, Adobe XD and Photoshop. Formerly a senior designer, she honed her user experience skills."
+                  hideOnMobile
                 />
               </Box>
             </Box>

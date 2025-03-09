@@ -20,6 +20,7 @@ type Props = {
   image: string;
   title: string;
   desc: string;
+  hideOnMobile?: boolean;
 };
 
 export const TiltCard: React.FC<Props> = (props) => {
@@ -27,7 +28,18 @@ export const TiltCard: React.FC<Props> = (props) => {
     <Box
       className="card"
       sx={{
-        width: "350px",
+        width: {
+          xs: 300,
+          sm: 325,
+          md: 295,
+          lg: 340,
+          xl: 350,
+        },
+        display: {
+          xs: props.hideOnMobile ? "none" : "block",
+          sm: props.hideOnMobile ? "none" : "block",
+          md: "block",
+        },
       }}>
       <Tilt options={tiltDefaultOptions}>
         <Card
@@ -36,7 +48,18 @@ export const TiltCard: React.FC<Props> = (props) => {
             color: "white",
             boxShadow: `0px 0px 20px -5px ${props.borderColor}`,
           }}>
-          <CardMedia image={props.image} sx={{ height: 250 }} />
+          <CardMedia
+            image={props.image}
+            sx={{
+              height: {
+                xs: 175,
+                sm: 225,
+                md: 200,
+                lg: 225,
+                xl: 250,
+              },
+            }}
+          />
           <CardContent>
             <Typography variant="h5" gutterBottom>
               {props.title}

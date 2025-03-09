@@ -17,11 +17,12 @@ const tiltDefaultOptions = {
 type Props = {
   cardColor: string;
   borderColor: string;
-  profession?: string;
-  name?: string;
-  lastname?: string;
-  photo?: string;
-  bio?: string;
+  profession: string;
+  name: string;
+  lastname: string;
+  photo: string;
+  bio: string;
+  hideOnMobile?: boolean;
 };
 
 export const TiltCardEmployee: React.FC<Props> = (props) => {
@@ -29,7 +30,18 @@ export const TiltCardEmployee: React.FC<Props> = (props) => {
     <Box
       className="card"
       sx={{
-        width: "400px",
+        width: {
+          xs: 315,
+          sm: 350,
+          md: 325,
+          lg: 350,
+          xl: 400,
+        },
+        display: {
+          xs: props.hideOnMobile ? "none" : "block",
+          sm: props.hideOnMobile ? "none" : "block",
+          md: "block",
+        },
       }}>
       <Tilt options={tiltDefaultOptions}>
         <Card
@@ -37,7 +49,7 @@ export const TiltCardEmployee: React.FC<Props> = (props) => {
             background: `${props.cardColor}`,
             color: "#e9ecef",
             boxShadow: `0px 0px 20px -5px ${props.borderColor}`,
-            minHeight: "500px",
+            minHeight: "525px",
           }}>
           <CardContent
             sx={{

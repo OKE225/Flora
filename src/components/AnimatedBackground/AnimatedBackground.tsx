@@ -53,9 +53,9 @@ export const AnimatedBackground: React.FC<Props> = ({
         minHeight: {
           xs: "140vh",
           sm: "140vh",
-          md: "120vh",
-          lg: "120vh",
-          xl: "120vh",
+          md: "130vh",
+          lg: "130vh",
+          xl: "130vh",
         },
         height: "auto",
         overflow: "hidden",
@@ -63,9 +63,9 @@ export const AnimatedBackground: React.FC<Props> = ({
         marginTop: {
           xs: "-8vh",
           sm: "-8vh",
-          md: "-6.5vh",
-          lg: "-6.5vh",
-          xl: "-6.5vh",
+          md: "-7vh",
+          lg: "-7vh",
+          xl: "-7vh",
         },
       }}>
       {children}

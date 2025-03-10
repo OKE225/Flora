@@ -83,9 +83,9 @@ export const App = () => {
                 minHeight: {
                   xs: "140vh",
                   sm: "140vh",
-                  md: "120vh",
-                  lg: "120vh",
-                  xl: "120vh",
+                  md: "130vh",
+                  lg: "130vh",
+                  xl: "130vh",
                 },
                 margin: "0 auto",
                 display: "flex",
@@ -189,7 +189,13 @@ export const App = () => {
             <Box className="flora-image-section">
               <FloraImage
                 source={flowerRedTransparent1}
-                width="15%"
+                width={{
+                  xs: "37.5%",
+                  sm: "32.5%",
+                  md: "20%",
+                  lg: "17.5%",
+                  xl: "15%",
+                }}
                 posBottom="57.5%"
                 posLeft="-5%"
                 rotateDeg="60deg"
@@ -197,7 +203,13 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerRedTransparent2}
-                width="15%"
+                width={{
+                  xs: "47.5%",
+                  sm: "32.5%",
+                  md: "20%",
+                  lg: "17.5%",
+                  xl: "15%",
+                }}
                 posBottom="-25%"
                 posLeft="1%"
                 rotateDeg="10deg"
@@ -205,7 +217,13 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerRedTransparent5}
-                width="13%"
+                width={{
+                  xs: "35%",
+                  sm: "30%",
+                  md: "18%",
+                  lg: "15.5%",
+                  xl: "13%",
+                }}
                 posBottom="-11%"
                 posRight="35%"
                 rotateDeg="-20deg"
@@ -213,7 +231,13 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerRedTransparent4}
-                width="22.5%"
+                width={{
+                  xs: "45%",
+                  sm: "40%",
+                  md: "27.5%",
+                  lg: "25%",
+                  xl: "22.5%",
+                }}
                 posBottom="-5%"
                 posRight="-9%"
                 rotateDeg="9deg"
@@ -221,7 +245,13 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerRedTransparent3}
-                width="11%"
+                width={{
+                  xs: "30%",
+                  sm: "28.5%",
+                  md: "16%",
+                  lg: "13.5%",
+                  xl: "11%",
+                }}
                 posBottom="75%"
                 posRight="-4%"
                 rotateDeg="45deg"
@@ -249,9 +279,9 @@ export const App = () => {
                 minHeight: {
                   xs: "140vh",
                   sm: "140vh",
-                  md: "120vh",
-                  lg: "120vh",
-                  xl: "120vh",
+                  md: "130vh",
+                  lg: "130vh",
+                  xl: "130vh",
                 },
                 margin: "0 auto",
                 display: "flex",
@@ -355,7 +385,13 @@ export const App = () => {
             <Box className="flora-image-section">
               <FloraImage
                 source={flowerBlueTransparent1}
-                width="15%"
+                width={{
+                  xs: "37.5%",
+                  sm: "32.5%",
+                  md: "20%",
+                  lg: "17.5%",
+                  xl: "15%",
+                }}
                 posBottom="68%"
                 posLeft="-6.5%"
                 rotateDeg="65deg"
@@ -363,7 +399,13 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerBlueTransparent6}
-                width="22%"
+                width={{
+                  xs: "47.5%",
+                  sm: "39.5%",
+                  md: "27%",
+                  lg: "24.5%",
+                  xl: "22%",
+                }}
                 posBottom="10%"
                 posLeft="-8.5%"
                 rotateDeg="17.5deg"
@@ -371,7 +413,13 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerBlueTransparent2}
-                width="16%"
+                width={{
+                  xs: "33.5%",
+                  sm: "33.5%",
+                  md: "21%",
+                  lg: "18.5%",
+                  xl: "16%",
+                }}
                 posBottom="-19%"
                 posLeft="22.5%"
                 rotateDeg="5deg"
@@ -379,7 +427,13 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerBlueTransparent3}
-                width="20%"
+                width={{
+                  xs: "45%",
+                  sm: "37.5%",
+                  md: "25%",
+                  lg: "22.5%",
+                  xl: "20%",
+                }}
                 posBottom="-6%"
                 posRight="5%"
                 rotateDeg="-35deg"
@@ -387,7 +441,13 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerBlueTransparent4}
-                width="18%"
+                width={{
+                  xs: "40%",
+                  sm: "35.5%",
+                  md: "23%",
+                  lg: "20.5%",
+                  xl: "18%",
+                }}
                 posBottom="37.5%"
                 posRight="-8%"
                 rotateDeg="-35deg"
@@ -395,7 +455,13 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerBlueTransparent5}
-                width="10%"
+                width={{
+                  xs: "30%",
+                  sm: "27.5%",
+                  md: "15%",
+                  lg: "12.5%",
+                  xl: "10%",
+                }}
                 posBottom="82.5%"
                 posRight="-5%"
                 rotateDeg="45deg"
@@ -423,9 +489,9 @@ export const App = () => {
                 minHeight: {
                   xs: "140vh",
                   sm: "140vh",
-                  md: "120vh",
-                  lg: "120vh",
-                  xl: "120vh",
+                  md: "130vh",
+                  lg: "130vh",
+                  xl: "130vh",
                 },
                 margin: "0 auto",
                 display: "flex",
@@ -529,7 +595,13 @@ export const App = () => {
             <Box className="flora-image-section">
               <FloraImage
                 source={flowerYellowTransparent7}
-                width="10.5%"
+                width={{
+                  xs: "35%",
+                  sm: "28%",
+                  md: "15.5%",
+                  lg: "13%",
+                  xl: "10.5%",
+                }}
                 posBottom="78.5%"
                 posLeft="-5.5%"
                 rotateDeg="0deg"
@@ -537,7 +609,13 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerYellowTransparent3}
-                width="12.5%"
+                width={{
+                  xs: "25%",
+                  sm: "25%",
+                  md: "17.5%",
+                  lg: "15%",
+                  xl: "12.5%",
+                }}
                 posBottom="20%"
                 posLeft="-5%"
                 rotateDeg="40deg"
@@ -545,7 +623,13 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerYellowTransparent6}
-                width="25%"
+                width={{
+                  xs: "37.5%",
+                  sm: "37.5%",
+                  md: "30%",
+                  lg: "27.5%",
+                  xl: "25%",
+                }}
                 posBottom="-37.5%"
                 posLeft="2.5%"
                 rotateDeg="20deg"
@@ -553,15 +637,27 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerYellowTransparent4}
-                width="11%"
+                width={{
+                  xs: "40%",
+                  sm: "28.5%",
+                  md: "16%",
+                  lg: "13.5%",
+                  xl: "11%",
+                }}
                 posBottom="-10%"
                 posLeft="37.5%"
                 rotateDeg="0deg"
-                zIndex={-1}
+                zIndex={-2}
               />
               <FloraImage
                 source={flowerYellowTransparent5}
-                width="17.5%"
+                width={{
+                  xs: "55%",
+                  sm: "35%",
+                  md: "22.5%",
+                  lg: "20%",
+                  xl: "17.5%",
+                }}
                 posBottom="-8%"
                 posRight="1%"
                 rotateDeg="0deg"
@@ -569,15 +665,27 @@ export const App = () => {
               />
               <FloraImage
                 source={flowerYellowTransparent2}
-                width="14%"
+                width={{
+                  xs: "25%",
+                  sm: "20%",
+                  md: "19%",
+                  lg: "16.5%",
+                  xl: "14%",
+                }}
                 posBottom="38%"
-                posRight="-5%"
+                posRight="-6.5%"
                 rotateDeg="-35deg"
                 zIndex={-1}
               />
               <FloraImage
                 source={flowerYellowTransparent1}
-                width="6.5%"
+                width={{
+                  xs: "30%",
+                  sm: "25%",
+                  md: "11.5%",
+                  lg: "9%",
+                  xl: "6.5%",
+                }}
                 posBottom="82.5%"
                 posRight="-3.5%"
                 rotateDeg="0deg"
@@ -604,9 +712,9 @@ export const App = () => {
                 minHeight: {
                   xs: "140vh",
                   sm: "140vh",
-                  md: "120vh",
-                  lg: "120vh",
-                  xl: "120vh",
+                  md: "130vh",
+                  lg: "130vh",
+                  xl: "130vh",
                 },
                 margin: "0 auto",
                 display: "flex",

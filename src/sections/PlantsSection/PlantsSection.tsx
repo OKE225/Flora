@@ -32,9 +32,9 @@ export class PlantsSection extends Component {
             minHeight: {
               xs: "140vh",
               sm: "140vh",
-              md: "120vh",
-              lg: "120vh",
-              xl: "120vh",
+              md: "130vh",
+              lg: "130vh",
+              xl: "130vh",
             },
             overflow: "hidden",
             display: "flex",
@@ -165,13 +165,31 @@ export class PlantsSection extends Component {
           <Box className="flora-image-section">
             <FloraImage
               source={plantsTop}
-              width="100%"
-              posTop="-25vw"
+              width={{
+                xs: "100%",
+                sm: "100%",
+                md: "100%",
+                lg: "100%",
+                xl: "100%",
+              }}
+              posTopQuery={{
+                xs: "0vw",
+                sm: "-10vw",
+                md: "-20vw",
+                lg: "-20vw",
+                xl: "-25vw",
+              }}
               zIndex={100}
             />
             <FloraImage
               source={plant1}
-              width="25%"
+              width={{
+                xs: "55%",
+                sm: "42.5%",
+                md: "30%",
+                lg: "27.5%",
+                xl: "25%",
+              }}
               posBottom="-5%"
               posLeft="-5%"
               rotateDeg="11deg"
@@ -179,14 +197,26 @@ export class PlantsSection extends Component {
             />
             <FloraImage
               source={plant5}
-              width="15%"
+              width={{
+                xs: "45%",
+                sm: "32.5%",
+                md: "20%",
+                lg: "17.5%",
+                xl: "15%",
+              }}
               posBottom="-10%"
               posLeft="6.5%"
               zIndex={-3}
             />
             <FloraImage
               source={plant2}
-              width="12.5%"
+              width={{
+                xs: "45%",
+                sm: "30%",
+                md: "17.5%",
+                lg: "15%",
+                xl: "12.5%",
+              }}
               posBottom="-4%"
               posLeft="17.5%"
               rotateDeg="10deg"
@@ -194,7 +224,13 @@ export class PlantsSection extends Component {
             />
             <FloraImage
               source={plant6}
-              width="17.5%"
+              width={{
+                xs: "45%",
+                sm: "35%",
+                md: "22.5%",
+                lg: "20%",
+                xl: "17.5%",
+              }}
               posBottom="-4%"
               posRight="15%"
               rotateDeg="-8.45deg"
@@ -202,7 +238,13 @@ export class PlantsSection extends Component {
             />
             <FloraImage
               source={plant4}
-              width="22.5%"
+              width={{
+                xs: "55%",
+                sm: "40%",
+                md: "27.5%",
+                lg: "25%",
+                xl: "22.5%",
+              }}
               posBottom="-6%"
               posRight="-2.5%"
               rotateDeg="-21deg"
@@ -210,7 +252,13 @@ export class PlantsSection extends Component {
             />
             <FloraImage
               source={plant3}
-              width="17.5%"
+              width={{
+                xs: "32.5%",
+                sm: "32.5%",
+                md: "22.5%",
+                lg: "20%",
+                xl: "17.5%",
+              }}
               posBottom="20%"
               posRight="-4%"
               rotateDeg="-27deg"

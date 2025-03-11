@@ -1,46 +1,96 @@
-# Getting Started with Create React App
+# FLORA Plants and Flowers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub License](https://img.shields.io/github/license/OKE225/Flora?style=for-the-badge&labelColor=red&color=tomato)
+![GitHub repo size](https://img.shields.io/github/repo-size/OKE225/Flora?style=for-the-badge&label=size&labelColor=goldenrod&color=yellow)
+![Static Badge](https://img.shields.io/badge/OKE225-blue?style=for-the-badge&label=Author&labelColor=steelblue)
 
-## Available Scripts
+This project is a responsive landing page website that features various sections dedicated to plants and flowers, as well as introducing the team. To enrich the user experience, the tilt effect was used on cards using the React Tilt library, and animated backgrounds were created with the help of Vanta.js. The styling of the website was realized using Material-UI (MUI), which gives it a modern and visually appealing look. The project focuses on intuitive navigation and attractive layout.
 
-In the project directory, you can run:
+![Plants section](./src/assets/docs/plants.png)
 
-### `npm start`
+[**➜ Live**](https://oke225.github.io/Flora/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## ⚙️ Technologies Used
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React
+- TypeScript
+- MUI - Material UI
+- Sass
+- React Tilt
+- Vanta.js
 
-### `npm test`
+## 💻 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Responsive design** - Achieved with Material-UI, the website automatically adjusts to different screen sizes, providing a comfortable browsing experience on both mobile and desktop devices.
+- **Animated background** (Vanta.js) - Using Vanta.js allows for the generation of interactive and dynamic animated backgrounds that add dynamics and esthetics to the site's visual presentation.
+- **Loading screen** - The loading screen informs users about the ongoing page loading process, enhancing their experience while waiting.
+- **Cards with tilt effect** (React Tilt) - Interactive cards utilize the tilt effect, which causes them to subtly tilt in response to the movement of the mouse cursor, increasing user engagement.
 
-### `npm run build`
+These elements come together to create a modern and functional website.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+src
+├── components
+├── layout
+├── sections
+├── styles
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`src/components/` - contains components that are used in different parts of the application  
+`src/layout/` - stores components responsible for the overall structure and layout of the page  
+`src/sections/` - contains components representing individual sections of the page  
+`src/styles/` - stores style files that are used throughout the entire application
 
-### `npm run eject`
+## 📙 Local Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. **Clone the Repository:**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   Open your terminal and clone the GitHub repository using:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   ```bash
+   git clone https://github.com/OKE225/Flora.git
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2. **Install Dependencies:**
 
-## Learn More
+   Navigate to the project directory:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   cd Flora
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   Then install all dependencies using npm or yarn:
+
+   ```bash
+   npm install
+   ```
+
+   or
+
+   ```bash
+   yarn install
+   ```
+
+3. **Start the Application:**
+
+   To run the application locally, use:
+
+   ```bash
+   npm start
+   ```
+
+   or
+
+   ```bash
+   yarn start
+   ```
+
+## 📄 License
+
+The [MIT License](./LICENSE) (MIT). Please see License File for more information.
+
+## 🔎 See Also
+
+[GitHub profile](https://github.com/OKE225)

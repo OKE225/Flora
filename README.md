@@ -13,15 +13,10 @@ This project is a responsive landing page website that features various sections
 ## ⚙️ Technologies Used
 
 - React
-
 - TypeScript
-
 - MUI - Material UI
-
 - Sass
-
 - React Tilt
-
 - Vanta.js
 
 ## 💻 Features
@@ -50,13 +45,9 @@ src
 ```
 
 - `src/assets/` - This directory contains images and other resources needed for the application.
-
 - `src/components/` - contains components that are used in different parts of the application
-
 - `src/layout/` - stores components responsible for the overall structure and layout of the page
-
 - `src/sections/` - contains components representing individual sections of the page
-
 - `src/styles/` - stores style files that are used throughout the entire application
 
 ## 📙 Local Setup

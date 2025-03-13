@@ -1,4 +1,4 @@
-# FLORA Plants and Flowers
+# 🌱 FLORA Plants and Flowers
 
 ![GitHub License](https://img.shields.io/github/license/OKE225/Flora?style=for-the-badge&labelColor=red&color=tomato)
 ![GitHub repo size](https://img.shields.io/github/repo-size/OKE225/Flora?style=for-the-badge&label=size&labelColor=goldenrod&color=yellow)
@@ -6,42 +6,58 @@
 
 This project is a responsive landing page website that features various sections dedicated to plants and flowers, as well as introducing the team. To enrich the user experience, the tilt effect was used on cards using the React Tilt library, and animated backgrounds were created with the help of Vanta.js. The styling of the website was realized using Material-UI (MUI), which gives it a modern and visually appealing look. The project focuses on intuitive navigation and attractive layout.
 
-![Plants section](./src/assets/docs/plants.png)
+![FLORA Plants and Flowers Website](./src/assets/docs/plants.png)
 
 [**➜ Live**](https://oke225.github.io/Flora/)
 
 ## ⚙️ Technologies Used
 
 - React
+
 - TypeScript
+
 - MUI - Material UI
+
 - Sass
+
 - React Tilt
+
 - Vanta.js
 
 ## 💻 Features
 
 - **Responsive design** - Achieved with Material-UI, the website automatically adjusts to different screen sizes, providing a comfortable browsing experience on both mobile and desktop devices.
+
 - **Animated background** (Vanta.js) - Using Vanta.js allows for the generation of interactive and dynamic animated backgrounds that add dynamics and esthetics to the site's visual presentation.
+
 - **Loading screen** - The loading screen informs users about the ongoing page loading process, enhancing their experience while waiting.
+
 - **Cards with tilt effect** (React Tilt) - Interactive cards utilize the tilt effect, which causes them to subtly tilt in response to the movement of the mouse cursor, increasing user engagement.
 
 These elements come together to create a modern and functional website.
 
 ## 📁 Structure
 
+This is the structure of the application, designed to organize the codebase in a clear way. Each folder serves a specific role
+
 ```bash
 src
+├── assets
 ├── components
 ├── layout
 ├── sections
-├── styles
+└── styles
 ```
 
-`src/components/` - contains components that are used in different parts of the application  
-`src/layout/` - stores components responsible for the overall structure and layout of the page  
-`src/sections/` - contains components representing individual sections of the page  
-`src/styles/` - stores style files that are used throughout the entire application
+- `src/assets/` - This directory contains images and other resources needed for the application.
+
+- `src/components/` - contains components that are used in different parts of the application
+
+- `src/layout/` - stores components responsible for the overall structure and layout of the page
+
+- `src/sections/` - contains components representing individual sections of the page
+
+- `src/styles/` - stores style files that are used throughout the entire application
 
 ## 📙 Local Setup
 

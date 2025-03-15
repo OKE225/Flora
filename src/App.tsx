@@ -196,8 +196,20 @@ export const App = () => {
                   lg: "17.5%",
                   xl: "15%",
                 }}
-                posBottom="57.5%"
-                posLeft="-5%"
+                posBottom={{
+                  xs: "60%",
+                  sm: "60%",
+                  md: "60%",
+                  lg: "57.5%",
+                  xl: "57.5%",
+                }}
+                posLeft={{
+                  xs: "-14%",
+                  sm: "-10%",
+                  md: "-6.5%",
+                  lg: "-5%",
+                  xl: "-5%",
+                }}
                 rotateDeg="60deg"
                 zIndex={-1}
               />
@@ -210,22 +222,46 @@ export const App = () => {
                   lg: "17.5%",
                   xl: "15%",
                 }}
-                posBottom="-25%"
-                posLeft="1%"
+                posBottom={{
+                  xs: "-26%",
+                  sm: "-20%",
+                  md: "-20%",
+                  lg: "-25%",
+                  xl: "-25%",
+                }}
+                posLeft={{
+                  xs: "-8%",
+                  sm: "-2%",
+                  md: "1%",
+                  lg: "1%",
+                  xl: "1%",
+                }}
                 rotateDeg="10deg"
                 zIndex={-1}
               />
               <FloraImage
                 source={flowerRedTransparent5}
                 width={{
-                  xs: "35%",
+                  xs: "30%",
                   sm: "30%",
                   md: "18%",
                   lg: "15.5%",
                   xl: "13%",
                 }}
-                posBottom="-11%"
-                posRight="35%"
+                posBottom={{
+                  xs: "-12%",
+                  sm: "-12.5%",
+                  md: "-10%",
+                  lg: "-11%",
+                  xl: "-11%",
+                }}
+                posRight={{
+                  xs: "32.5%",
+                  sm: "30%",
+                  md: "35%",
+                  lg: "35%",
+                  xl: "35%",
+                }}
                 rotateDeg="-20deg"
                 zIndex={-1}
               />
@@ -238,8 +274,20 @@ export const App = () => {
                   lg: "25%",
                   xl: "22.5%",
                 }}
-                posBottom="-5%"
-                posRight="-9%"
+                posBottom={{
+                  xs: "-4%",
+                  sm: "-5%",
+                  md: "-5%",
+                  lg: "-5%",
+                  xl: "-5%",
+                }}
+                posRight={{
+                  xs: "-15%",
+                  sm: "-14%",
+                  md: "-9%",
+                  lg: "-9%",
+                  xl: "-9%",
+                }}
                 rotateDeg="9deg"
                 zIndex={-1}
               />
@@ -252,8 +300,20 @@ export const App = () => {
                   lg: "13.5%",
                   xl: "11%",
                 }}
-                posBottom="75%"
-                posRight="-4%"
+                posBottom={{
+                  xs: "75%",
+                  sm: "70%",
+                  md: "67.5%",
+                  lg: "70%",
+                  xl: "75%",
+                }}
+                posRight={{
+                  xs: "-10%",
+                  sm: "-10%",
+                  md: "-6%",
+                  lg: "-5%",
+                  xl: "-4%",
+                }}
                 rotateDeg="45deg"
                 zIndex={-1}
               />
@@ -386,14 +446,26 @@ export const App = () => {
               <FloraImage
                 source={flowerBlueTransparent1}
                 width={{
-                  xs: "37.5%",
-                  sm: "32.5%",
-                  md: "20%",
+                  xs: "35%",
+                  sm: "30%",
+                  md: "17.5%",
                   lg: "17.5%",
                   xl: "15%",
                 }}
-                posBottom="68%"
-                posLeft="-6.5%"
+                posBottom={{
+                  xs: "72.5%",
+                  sm: "70%",
+                  md: "66%",
+                  lg: "66%",
+                  xl: "68%",
+                }}
+                posLeft={{
+                  xs: "-15%",
+                  sm: "-12.5%",
+                  md: "-7.5%",
+                  lg: "-7.5%",
+                  xl: "-6.5%",
+                }}
                 rotateDeg="65deg"
                 zIndex={-1}
               />
@@ -406,22 +478,46 @@ export const App = () => {
                   lg: "24.5%",
                   xl: "22%",
                 }}
-                posBottom="10%"
-                posLeft="-8.5%"
+                posBottom={{
+                  xs: "11%",
+                  sm: "12.5%",
+                  md: "8%",
+                  lg: "8%",
+                  xl: "10%",
+                }}
+                posLeft={{
+                  xs: "-20%",
+                  sm: "-16%",
+                  md: "-10%",
+                  lg: "-10%",
+                  xl: "-8.5%",
+                }}
                 rotateDeg="17.5deg"
                 zIndex={-1}
               />
               <FloraImage
                 source={flowerBlueTransparent2}
                 width={{
-                  xs: "33.5%",
+                  xs: "32.5%",
                   sm: "33.5%",
                   md: "21%",
                   lg: "18.5%",
                   xl: "16%",
                 }}
-                posBottom="-19%"
-                posLeft="22.5%"
+                posBottom={{
+                  xs: "-14%",
+                  sm: "-18%",
+                  md: "-22%",
+                  lg: "-20%",
+                  xl: "-19%",
+                }}
+                posLeft={{
+                  xs: "20%",
+                  sm: "20%",
+                  md: "20%",
+                  lg: "22.5%",
+                  xl: "22.5%",
+                }}
                 rotateDeg="5deg"
                 zIndex={-1}
               />
@@ -434,8 +530,20 @@ export const App = () => {
                   lg: "22.5%",
                   xl: "20%",
                 }}
-                posBottom="-6%"
-                posRight="5%"
+                posBottom={{
+                  xs: "-4%",
+                  sm: "-4%",
+                  md: "-6%",
+                  lg: "-6%",
+                  xl: "-6%",
+                }}
+                posRight={{
+                  xs: "-5%",
+                  sm: "-2%",
+                  md: "4%",
+                  lg: "4%",
+                  xl: "5%",
+                }}
                 rotateDeg="-35deg"
                 zIndex={-1}
               />
@@ -444,26 +552,50 @@ export const App = () => {
                 width={{
                   xs: "40%",
                   sm: "35.5%",
-                  md: "23%",
+                  md: "20%",
                   lg: "20.5%",
                   xl: "18%",
                 }}
-                posBottom="37.5%"
-                posRight="-8%"
+                posBottom={{
+                  xs: "38%",
+                  sm: "38%",
+                  md: "37.5%",
+                  lg: "37.5%",
+                  xl: "37.5%",
+                }}
+                posRight={{
+                  xs: "-15%",
+                  sm: "-12.5%",
+                  md: "-8%",
+                  lg: "-9%",
+                  xl: "-8%",
+                }}
                 rotateDeg="-35deg"
                 zIndex={-1}
               />
               <FloraImage
                 source={flowerBlueTransparent5}
                 width={{
-                  xs: "30%",
-                  sm: "27.5%",
-                  md: "15%",
+                  xs: "22%",
+                  sm: "22.5%",
+                  md: "12%",
                   lg: "12.5%",
                   xl: "10%",
                 }}
-                posBottom="82.5%"
-                posRight="-5%"
+                posBottom={{
+                  xs: "85%",
+                  sm: "82.5%",
+                  md: "80%",
+                  lg: "80%",
+                  xl: "82.5%",
+                }}
+                posRight={{
+                  xs: "-10%",
+                  sm: "-10%",
+                  md: "-6%",
+                  lg: "-6%",
+                  xl: "-5%",
+                }}
                 rotateDeg="45deg"
                 zIndex={-1}
               />
@@ -596,98 +728,182 @@ export const App = () => {
               <FloraImage
                 source={flowerYellowTransparent7}
                 width={{
-                  xs: "35%",
-                  sm: "28%",
+                  xs: "30%",
+                  sm: "25%",
                   md: "15.5%",
                   lg: "13%",
                   xl: "10.5%",
                 }}
-                posBottom="78.5%"
-                posLeft="-5.5%"
+                posBottom={{
+                  xs: "78%",
+                  sm: "74%",
+                  md: "70%",
+                  lg: "74%",
+                  xl: "78.5%",
+                }}
+                posLeft={{
+                  xs: "-16%",
+                  sm: "-12.5%",
+                  md: "-8%",
+                  lg: "-6.5%",
+                  xl: "-5.5%",
+                }}
                 rotateDeg="0deg"
                 zIndex={-1}
               />
               <FloraImage
                 source={flowerYellowTransparent3}
                 width={{
-                  xs: "25%",
+                  xs: "27.5%",
                   sm: "25%",
                   md: "17.5%",
                   lg: "15%",
                   xl: "12.5%",
                 }}
-                posBottom="20%"
-                posLeft="-5%"
+                posBottom={{
+                  xs: "27.5%",
+                  sm: "20%",
+                  md: "15%",
+                  lg: "18%",
+                  xl: "20%",
+                }}
+                posLeft={{
+                  xs: "-12%",
+                  sm: "-10%",
+                  md: "-7.5%",
+                  lg: "-6%",
+                  xl: "-5%",
+                }}
                 rotateDeg="40deg"
                 zIndex={-1}
               />
               <FloraImage
                 source={flowerYellowTransparent6}
                 width={{
-                  xs: "37.5%",
+                  xs: "47.5%",
                   sm: "37.5%",
                   md: "30%",
                   lg: "27.5%",
                   xl: "25%",
                 }}
-                posBottom="-37.5%"
-                posLeft="2.5%"
+                posBottom={{
+                  xs: "-15%",
+                  sm: "-22.5%",
+                  md: "-35%",
+                  lg: "-36%",
+                  xl: "-37.5%",
+                }}
+                posLeft={{
+                  xs: "-10%",
+                  sm: "-4%",
+                  md: "0%",
+                  lg: "2%",
+                  xl: "2.5%",
+                }}
                 rotateDeg="20deg"
-                zIndex={-1}
+                zIndex={-2}
               />
               <FloraImage
                 source={flowerYellowTransparent4}
                 width={{
-                  xs: "40%",
-                  sm: "28.5%",
+                  xs: "25%",
+                  sm: "20%",
                   md: "16%",
                   lg: "13.5%",
                   xl: "11%",
                 }}
-                posBottom="-10%"
-                posLeft="37.5%"
+                posBottom={{
+                  xs: "-7.5%",
+                  sm: "-10%",
+                  md: "-12%",
+                  lg: "-12%",
+                  xl: "-10%",
+                }}
+                posLeft={{
+                  xs: "32.5%",
+                  sm: "35%",
+                  md: "38%",
+                  lg: "38%",
+                  xl: "37.5%",
+                }}
                 rotateDeg="0deg"
                 zIndex={-2}
               />
               <FloraImage
                 source={flowerYellowTransparent5}
                 width={{
-                  xs: "55%",
+                  xs: "45%",
                   sm: "35%",
                   md: "22.5%",
                   lg: "20%",
                   xl: "17.5%",
                 }}
-                posBottom="-8%"
-                posRight="1%"
+                posBottom={{
+                  xs: "-2.5%",
+                  sm: "-5%",
+                  md: "-6%",
+                  lg: "-7.5%",
+                  xl: "-8%",
+                }}
+                posRight={{
+                  xs: "-5%",
+                  sm: "0%",
+                  md: "1%",
+                  lg: "1%",
+                  xl: "1%",
+                }}
                 rotateDeg="0deg"
                 zIndex={-1}
               />
               <FloraImage
                 source={flowerYellowTransparent2}
                 width={{
-                  xs: "25%",
-                  sm: "20%",
-                  md: "19%",
+                  xs: "30%",
+                  sm: "22.5%",
+                  md: "17.5%",
                   lg: "16.5%",
                   xl: "14%",
                 }}
-                posBottom="38%"
-                posRight="-6.5%"
+                posBottom={{
+                  xs: "40%",
+                  sm: "37.5%",
+                  md: "36%",
+                  lg: "36%",
+                  xl: "38%",
+                }}
+                posRight={{
+                  xs: "-10%",
+                  sm: "-8%",
+                  md: "-7%",
+                  lg: "-7%",
+                  xl: "-6.5%",
+                }}
                 rotateDeg="-35deg"
                 zIndex={-1}
               />
               <FloraImage
                 source={flowerYellowTransparent1}
                 width={{
-                  xs: "30%",
-                  sm: "25%",
-                  md: "11.5%",
+                  xs: "25%",
+                  sm: "17.5%",
+                  md: "12%",
                   lg: "9%",
                   xl: "6.5%",
                 }}
-                posBottom="82.5%"
-                posRight="-3.5%"
+                posBottom={{
+                  xs: "80%",
+                  sm: "80%",
+                  md: "75%",
+                  lg: "78%",
+                  xl: "82.5%",
+                }}
+                posRight={{
+                  xs: "-12.5%",
+                  sm: "-9%",
+                  md: "-6%",
+                  lg: "-5%",
+                  xl: "-3.5%",
+                }}
                 rotateDeg="0deg"
                 zIndex={-1}
               />

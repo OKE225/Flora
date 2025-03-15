@@ -64,7 +64,7 @@ export const AnimatedBackground: React.FC<Props> = ({
           xs: "-8vh",
           sm: "-8vh",
           md: "-7vh",
-          lg: "-7vh",
+          lg: "-7.5vh",
           xl: "-7vh",
         },
       }}>

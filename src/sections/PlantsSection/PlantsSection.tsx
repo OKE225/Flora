@@ -40,7 +40,14 @@ export class PlantsSection extends Component {
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-evenly",
-            mt: "10vh",
+            // mt: "150px",
+            mt: {
+              xs: "150px",
+              sm: "150px",
+              md: "10vh",
+              lg: "10vh",
+              xl: "10vh",
+            },
           }}>
           <Box
             className="content-container"
@@ -154,7 +161,7 @@ export class PlantsSection extends Component {
                 },
               }}>
               <TiltCard
-                cardColor="#31572c"
+                cardColor="#538d22"
                 borderColor="#132a13"
                 image={plantImage}
                 title="Green Life Project"
@@ -172,7 +179,7 @@ export class PlantsSection extends Component {
                 lg: "100%",
                 xl: "100%",
               }}
-              posTopQuery={{
+              posTop={{
                 xs: "0vw",
                 sm: "-10vw",
                 md: "-20vw",
@@ -190,8 +197,20 @@ export class PlantsSection extends Component {
                 lg: "27.5%",
                 xl: "25%",
               }}
-              posBottom="-5%"
-              posLeft="-5%"
+              posBottom={{
+                xs: "-2%",
+                sm: "-2.5%",
+                md: "-4.5%",
+                lg: "-5%",
+                xl: "-5%",
+              }}
+              posLeft={{
+                xs: "-10%",
+                sm: "-7.5%",
+                md: "-5%",
+                lg: "-5%",
+                xl: "-5%",
+              }}
               rotateDeg="11deg"
               zIndex={-1}
             />
@@ -204,8 +223,20 @@ export class PlantsSection extends Component {
                 lg: "17.5%",
                 xl: "15%",
               }}
-              posBottom="-10%"
-              posLeft="6.5%"
+              posBottom={{
+                xs: "-6.5%",
+                sm: "-6.5%",
+                md: "-4%",
+                lg: "-5%",
+                xl: "-10%",
+              }}
+              posLeft={{
+                xs: "7.5%",
+                sm: "10%",
+                md: "8%",
+                lg: "6.5%",
+                xl: "6.5%",
+              }}
               zIndex={-3}
             />
             <FloraImage
@@ -217,8 +248,20 @@ export class PlantsSection extends Component {
                 lg: "15%",
                 xl: "12.5%",
               }}
-              posBottom="-4%"
-              posLeft="17.5%"
+              posBottom={{
+                xs: "-5%",
+                sm: "-5%",
+                md: "-4%",
+                lg: "-4%",
+                xl: "-4%",
+              }}
+              posLeft={{
+                xs: "24%",
+                sm: "24%",
+                md: "20%",
+                lg: "17.5%",
+                xl: "17.5%",
+              }}
               rotateDeg="10deg"
               zIndex={-2}
             />
@@ -231,8 +274,20 @@ export class PlantsSection extends Component {
                 lg: "20%",
                 xl: "17.5%",
               }}
-              posBottom="-4%"
-              posRight="15%"
+              posBottom={{
+                xs: "-4%",
+                sm: "-4%",
+                md: "-4%",
+                lg: "-4%",
+                xl: "-4%",
+              }}
+              posRight={{
+                xs: "12.5%",
+                sm: "15%",
+                md: "18%",
+                lg: "18%",
+                xl: "15%",
+              }}
               rotateDeg="-8.45deg"
               zIndex={-2}
             />
@@ -245,8 +300,20 @@ export class PlantsSection extends Component {
                 lg: "25%",
                 xl: "22.5%",
               }}
-              posBottom="-6%"
-              posRight="-2.5%"
+              posBottom={{
+                xs: "-6%",
+                sm: "-6%",
+                md: "-3.5%",
+                lg: "-6%",
+                xl: "-6%",
+              }}
+              posRight={{
+                xs: "-15%",
+                sm: "-10%",
+                md: "-2%",
+                lg: "-2%",
+                xl: "-2.5%",
+              }}
               rotateDeg="-21deg"
               zIndex={-1}
             />
@@ -259,8 +326,20 @@ export class PlantsSection extends Component {
                 lg: "20%",
                 xl: "17.5%",
               }}
-              posBottom="20%"
-              posRight="-4%"
+              posBottom={{
+                xs: "14%",
+                sm: "14%",
+                md: "15%",
+                lg: "20%",
+                xl: "20%",
+              }}
+              posRight={{
+                xs: "-4%",
+                sm: "-4%",
+                md: "-4%",
+                lg: "-4%",
+                xl: "-4%",
+              }}
               rotateDeg="-27deg"
               zIndex={-2}
             />

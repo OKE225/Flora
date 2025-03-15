@@ -10,17 +10,34 @@ type Props = {
     lg: string;
     xl: string;
   };
-  posRight?: string;
-  posLeft?: string;
-  posTop?: string;
-  posTopQuery?: {
+  posRight?: {
     xs: string;
     sm: string;
     md: string;
     lg: string;
     xl: string;
   };
-  posBottom?: string;
+  posLeft?: {
+    xs: string;
+    sm: string;
+    md: string;
+    lg: string;
+    xl: string;
+  };
+  posTop?: {
+    xs: string;
+    sm: string;
+    md: string;
+    lg: string;
+    xl: string;
+  };
+  posBottom?: {
+    xs: string;
+    sm: string;
+    md: string;
+    lg: string;
+    xl: string;
+  };
   zIndex: number;
   rotateDeg?: string;
 };
@@ -29,7 +46,6 @@ export const FloraImage: React.FC<Props> = ({
   posRight,
   posLeft,
   posTop,
-  posTopQuery,
   posBottom,
   width,
   source,
@@ -44,7 +60,7 @@ export const FloraImage: React.FC<Props> = ({
         width: width,
         right: posRight,
         left: posLeft,
-        top: posTopQuery ? posTopQuery : posTop,
+        top: posTop,
         bottom: posBottom,
         zIndex: zIndex,
         rotate: rotateDeg,

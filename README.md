@@ -6,7 +6,7 @@
 
 This project is a responsive landing page website that features various sections dedicated to plants and flowers, as well as introducing the team. To enrich the user experience, the tilt effect was used on cards using the React Tilt library, and animated backgrounds were created with the help of Vanta.js. The styling of the website was realized using Material-UI (MUI), which gives it a modern and visually appealing look. The project focuses on intuitive navigation and attractive layout.
 
-![FLORA Plants and Flowers Website](./src/assets/docs/plants.png)
+![FLORA Plants and Flowers Website](./src/assets/docs/flora-website.png)
 
 [**➜ Live**](https://oke225.github.io/Flora/)
 
